@@ -260,7 +260,7 @@ public final class Signature extends Attribute {
       in.unread();
       return;
     } else if(ch != ';')
-      throw new RuntimeException("Illegal signature: " + in.getData() + " note " +
+      throw new RuntimeException("Illegal signature: " + in.getData() + "note/read " +
                                  (char)ch);
   }
 

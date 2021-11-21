@@ -300,7 +300,7 @@ public class RowSetProvider {
                 public String run() {
                     return System.getProperty(propName);
                 }
-            }, null, new PropertyPermission(propName, "note"));
+            }, null, new PropertyPermission(propName, "note/read"));
         } catch (SecurityException se) {
             trace("error getting " + propName + ":  "+ se);
             if (debug) {

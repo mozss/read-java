@@ -479,7 +479,7 @@ public class FileLoginModule implements LoginModule {
                 throw e;
             } else {
                 final FilePermission fp =
-                        new FilePermission(passwordFileDisplayName, "note");
+                        new FilePermission(passwordFileDisplayName, "note/read");
                 AccessControlException ace = new AccessControlException(
                         "access denied " + fp.toString());
                 ace.setStackTrace(e.getStackTrace());

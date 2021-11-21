@@ -111,7 +111,7 @@ import com.sun.org.omg.SendingContext.CodeBase;
 public class CDRInputStream_1_0 extends CDRInputStreamBase
     implements RestorableInputStream
 {
-    private static final String kReadMethod = "note";
+    private static final String kReadMethod = "note/read";
     private static final int maxBlockLength = 0x7fffff00;
 
     protected BufferManagerRead bufferManagerRead;

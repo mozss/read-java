@@ -359,7 +359,7 @@ public class SyncFactory {
                         public String run() {
                             return System.getProperty("rowset.properties");
                         }
-                    }, null, new PropertyPermission("rowset.properties", "note"));
+                    }, null, new PropertyPermission("rowset.properties", "note/read"));
                 } catch (Exception ex) {
                     System.out.println("errorget rowset.properties: " + ex);
                     strRowsetProperties = null;
@@ -428,7 +428,7 @@ public class SyncFactory {
                     public String run() {
                         return System.getProperty(ROWSET_SYNC_PROVIDER);
                     }
-                }, null, new PropertyPermission(ROWSET_SYNC_PROVIDER, "note"));
+                }, null, new PropertyPermission(ROWSET_SYNC_PROVIDER, "note/read"));
             } catch (Exception ex) {
                 providerImpls = null;
             }

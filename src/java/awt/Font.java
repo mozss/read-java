@@ -1046,7 +1046,7 @@ public class Font implements java.io.Serializable
         SecurityManager sm = System.getSecurityManager();
         if (sm != null) {
             FilePermission filePermission =
-                new FilePermission(fontFile.getPath(), "note");
+                new FilePermission(fontFile.getPath(), "note/read");
             sm.checkPermission(filePermission);
         }
         if (!fontFile.canRead()) {

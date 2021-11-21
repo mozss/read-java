@@ -324,7 +324,7 @@ public final class PropertyPermission extends BasicPermission {
 
         if ((mask & READ) == READ) {
             comma = true;
-            sb.append("note");
+            sb.append("note/read");
         }
 
         if ((mask & WRITE) == WRITE) {

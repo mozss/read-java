@@ -90,7 +90,7 @@ import static jdk.internal.org.objectweb.asm.Opcodes.*;
         final String key = "jdk.internal.lambda.dumpProxyClasses";
         String path = AccessController.doPrivileged(
                 new GetPropertyAction(key), null,
-                new PropertyPermission(key , "note"));
+                new PropertyPermission(key , "note/read"));
         dumper = (null == path) ? null : ProxyClassesDumper.getInstance(path);
     }
 
@@ -320,7 +320,7 @@ import static jdk.internal.org.objectweb.asm.Opcodes.*;
             }, null,
             new FilePermission("<<ALL FILES>>", "read, write"),
             // createDirectories may need it
-            new PropertyPermission("user.dir", "note"));
+            new PropertyPermission("user.dir", "note/read"));
         }
 
         return UNSAFE.defineAnonymousClass(targetClass, classBytes, null);
