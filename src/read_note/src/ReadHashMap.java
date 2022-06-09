@@ -18,8 +18,9 @@ public class ReadHashMap {
 		bookMap.put("PM-Book","No goods");
 		System.out.println(bookMap.get("PM-Book"));
 		
-		//查看System.out.println(); 源码加锁
+		//查看System.out.println(); 加锁
 		System.out.println("");
+		
 		
 		
 		
