@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.util.ArrayDeque</OriginalElement>
+  <nodes>
+    <node x="399.5" y="248.0">java.lang.Cloneable</node>
+    <node x="0.0" y="164.0">java.util.AbstractCollection</node>
+    <node x="128.42999999999998" y="82.0">java.util.Collection</node>
+    <node x="244.0" y="164.0">java.util.Queue</node>
+    <node x="203.27999999999997" y="332.0">java.util.ArrayDeque</node>
+    <node x="244.5" y="248.0">java.util.Deque</node>
+    <node x="137.42999999999995" y="0.0">java.lang.Iterable</node>
+    <node x="547.5" y="248.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.Queue" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="312.0" y="139.0" />
+      <point x="249.17999999999998" y="139.0" />
+      <point x="40.25" y="16.0" />
+    </edge>
+    <edge source="java.util.ArrayDeque" target="java.io.Serializable" relationship="REALIZATION">
+      <point x="43.75" y="-16.0" />
+      <point x="334.53" y="311.0" />
+      <point x="463.5" y="311.0" />
+      <point x="463.5" y="301.0" />
+      <point x="616.0" y="301.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.Collection" target="java.lang.Iterable" relationship="INTERFACE_GENERALIZATION">
+      <point x="-2.8421709430404007E-14" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.ArrayDeque" target="java.lang.Cloneable" relationship="REALIZATION">
+      <point x="43.75" y="-16.0" />
+      <point x="334.53" y="311.0" />
+      <point x="463.5" y="311.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.ArrayDeque" target="java.util.Deque" relationship="REALIZATION">
+      <point x="43.75" y="-16.0" />
+      <point x="334.53" y="311.0" />
+      <point x="463.5" y="311.0" />
+      <point x="463.5" y="301.0" />
+      <point x="312.0" y="301.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.Deque" target="java.util.Queue" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.AbstractCollection" target="java.util.Collection" relationship="REALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="112.0" y="139.0" />
+      <point x="168.67999999999998" y="139.0" />
+      <point x="-40.25" y="16.0" />
+    </edge>
+    <edge source="java.util.ArrayDeque" target="java.util.AbstractCollection" relationship="GENERALIZATION">
+      <point x="-43.75" y="-16.0" />
+      <point x="247.02999999999997" y="311.0" />
+      <point x="112.0" y="311.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="342.5" y="182.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,7 @@
+
+=
+java:S1165,"'Make this "annotationType" field final.(ó¶Àÿ
+:
+java:S1165-"$Make this "elementName" field final.(†Å±ˆ
+c
+java:S1858;"N"elementName" is already a string, there's no need to call "toString()" on it.(£î€M

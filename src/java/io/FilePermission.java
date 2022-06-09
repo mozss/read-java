@@ -561,7 +561,7 @@ public final class FilePermission extends Permission implements Serializable {
 
         if ((mask & READ) == READ) {
             comma = true;
-            sb.append("note/read");
+            sb.append("read_note/read");
         }
 
         if ((mask & WRITE) == WRITE) {

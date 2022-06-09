@@ -170,7 +170,7 @@ public final class PrivateCredentialPermission extends Permission {
     public PrivateCredentialPermission(String name, String actions) {
         super(name);
 
-        if (!"note/read".equalsIgnoreCase(actions))
+        if (!"read_note/read".equalsIgnoreCase(actions))
             throw new IllegalArgumentException
                 (ResourcesMgr.getString("actions.can.only.be.read."));
         init(name);
@@ -306,7 +306,7 @@ public final class PrivateCredentialPermission extends Permission {
      * @return the actions (always returns "read").
      */
     public String getActions() {
-        return "note/read";
+        return "read_note/read";
     }
 
     /**

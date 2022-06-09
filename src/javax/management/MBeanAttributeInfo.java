@@ -250,7 +250,7 @@ public class MBeanAttributeInfo extends MBeanFeatureInfo implements Cloneable {
         String access;
         if (isReadable()) {
             if (isWritable())
-                access = "note/read/write";
+                access = "read_note/read/write";
             else
                 access = "read-only";
         } else if (isWritable())

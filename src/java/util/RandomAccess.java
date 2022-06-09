@@ -48,6 +48,7 @@ package java.util;
  * should generally implement this interface.  As a rule of thumb, a
  * <tt>List</tt> implementation should implement this interface if,
  * for typical instances of the class, this loop:
+ *
  * <pre>
  *     for (int i=0, n=list.size(); i &lt; n; i++)
  *         list.get(i);

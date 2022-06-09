@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <trees>
+     <tree path="/src/read_note" title=""/>
+     <tree path="/src/java/awt" title="-_"/>
+     <tree path="/src/java/lang" title="!_提供对 Java 编程语言的设计至关重要的类"/>
+     <tree path="/src/java/applet" title="-_"/>
+     <tree path="/src/java/nio" title="!_定义buffers, 它是数据的容器, 并提供其他 NIO 包的概述."/>
+     <tree path="/src/java/io" title="!_通过数据流、序列化和文件系统提供系统输入和输出"/>
+     <tree path="/src/java/time" title="!_日期、时间、瞬间和持续时间的主要 API"/>
+     <tree path="/src/java/util" title="!_包含集合框架、遗留集合类、事件模型、日期和时间工具、国际化和其他实用程序类(字符串标记器、随机数生成器和位数组)"/>
+     <tree path="/src/java" title="!"/>
+     <tree path="/src/java/lang/instrument" title="提供检测Java程序(如:监控代理、覆盖分析器)所需的服务."/>
+     <tree path="/src/java/lang/invoke" title="包含由Java核心类库和JVM提供的动态语言支持."/>
+    <tree path="/src/java/lang/management" title="提供管理接口(用于对JVM和Java运行时中的其他组件进行监控和管理)."/>
+    <tree path="/src/java/lang/ref" title="提供引用对象类,它们支持与gc收集器进行有限程度的交互。"/>
+    <tree path="/src/java/math" title="提供用于执行任意精度整数算术 (BigInteger) 和任意精度十进制算术 (BigDecimal) 的类"/>
+    <tree path="/src/java/net" title="提供用于实现网络应用程序的类."/>
+    <tree path="/src/java/nio/channels" title="定义通道, 表示与能够执行 I/O 操作的实体的连接, 例如文件和套接字; 定义选择器, 用于多路复用的非阻塞 I/O 操作"/>
+    <tree path="/src/java/nio/channels/spi" title="java.nio.channels包的服务提供者类(service-provider)"/>
+    <tree path="/src/java/nio/charset" title="定义字符集和解码器和编码器, 用于在字节和 Unicode 字符之间进行转换"/>
+    <tree path="/src/java/nio/file" title="为JVM定义接口和类以访问文件和文件属性和文件系统"/>
+    <tree path="/src/java/nio/file/attribute" title="提供对文件和文件系统属性的访问的接口和类"/>
+    <tree path="/src/java/rmi" title="提供RMI"/>
+    <tree path="/src/java/rmi/activation" title="提供对 RMI 对象激活的支持"/>
+    <tree path="/src/java/rmi/dgc" title="为 RMI 分布式垃圾收集 (DGC) 提供类和接口"/>
+    <tree path="/src/java/rmi/registry" title="为 RMI 注册表提供一个类和两个接口"/>
+    <tree path="/src/java/rmi/server" title="提供类和接口以支持 RMI 的服务器端"/>
+    <tree path="/src/java/security" title="为安全框架提供类和接口"/>
+    <tree path="/src/java/security/acl" title="此包中的类和接口已被 java.security 包中的类取代"/>
+    <tree path="/src/java/security/cert" title="提供用于解析和管理证书、证书吊销列表 (CRL) 和证书路径的类和接口"/>
+    <tree path="/src/java/security/interfaces"
+          title="提供接口，用于生成 RSA 实验室技术说明 PKCS#1 中定义的 RSA（Rivest、Shamir 和 Adleman 非对称密码算法）密钥，以及 NIST FIPS-186 中定义的 DSA（数字签名算法）密钥。"/>
+    <tree path="/src/java/security/spec" title="为关键规范和算法参数规范提供类和接口"/>
+    <tree path="/src/java/sql" title="提供用于访问和处理使用 Java程序存储在数据源(通常是关系数据库)中的数据的 API"/>
+    <tree path="/src/java/text" title="提供用于以独立于自然语言的方式处理文本、日期、数字和消息的类和接口"/>
+    <tree path="/src/java/time/chrono" title="除默认 ISO 之外的日历系统的通用 API"/>
+    <tree path="/src/java/time/format" title="提供类来打印和解析日期和时间"/>
+    <tree path="/src/java/time/temporal" title="使用字段和单位以及日期时间调整器访问日期和时间"/>
+    <tree path="/src/java/time/zone" title="支持时区及其规则"/>
+    <tree path="/src/java/util/concurrent" title="实用程序类在并发编程中通常很有用"/>
+    <tree path="/src/java/util/concurrent/atomic" title="一个小的类工具包，支持对单个变量进行无锁线程安全编程"/>
+    <tree path="/src/java/util/concurrent/locks" title="接口和类提供了用于锁定和等待与内置同步和监视器不同的条件的框架"/>
+    <tree path="/src/java/util/function" title="函数式接口为 lambda 表达式和方法引用提供目标类型"/>
+    <tree path="/src/java/util/jar" title="提供用于读取和写入 JAR (Java ARchive) 文件格式的类，该格式基于标准 ZIP 文件格式和可选的清单文件"/>
+    <tree path="/src/java/util/logging" title="提供 Java平台的核心日志记录工具的类和接口"/>
+    <tree path="/src/java/util/prefs" title="这个包允许应用程序存储和检索用户和系统偏好和配置数据"/>
+    <tree path="/src/java/util/regex" title="用于将字符序列与正则表达式指定的模式匹配的类"/>
+    <tree path="/src/java/util/stream" title="支持对元素流进行函数式操作的类，例如集合上的 map-reduce 转换"/>
+    <tree path="/src/java/util/zip" title="提供用于读取和写入标准 ZIP 和 GZIP 文件格式的类"/>
+    <tree path="/src/javax" title="-_"/>
+    <tree path="/src/launcher" title="-_"/>
+    <tree path="/src/org" title="-_"/>
+    <tree path="/src/sun" title="-_"/>
+    <tree path="/src/com/sun" title="-_"/>
+    <tree path="/src/java/beans" title="包含与开发 bean 相关的类——基于JavaBeans架构的组件"/>
+</trees>

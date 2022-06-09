@@ -1,0 +1,153 @@
+
+a	java:S112€"FDefine and throw a dedicated exception instead of using a generic one.(çÕ­øÿÿÿÿ
+I
+java:S1948¶"-Make "classLoader" transient or serializable.(ÃÎçšùÿÿÿÿ
+n
+java:S3077Á"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(â˜ó‡
+n
+java:S3077Â"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(´ÕÊÜ
+s
+java:S3077´"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(ï¹ëÿÿÿÿÿ
+s
+java:S3077ã"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(¨ı‹œûÿÿÿÿ
+B
+java:S3077‚"&Use an "AtomicReferenceArray" instead.(¿’¯‚øÿÿÿÿ
+n
+java:S3077˜"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(‡ ’Õ
+s
+java:S3077«"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(Ñşé‚üÿÿÿÿ
+n
+java:S3077â"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(ú  İ
+`
+java:S3358›"DExtract this nested ternary operation into an independent statement.(Æ¤ˆ•ÿÿÿÿÿ
+n
+java:S3776¹"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(û«»‰şÿÿÿÿ
+H
+java:S3011¤",This accessibility update should be removed.(¸Ò†’üÿÿÿÿ
+\
+java:S1124Á"EReorder the modifiers to comply with the Java Language Specification.(â˜ó‡
+\
+java:S1124Â"EReorder the modifiers to comply with the Java Language Specification.(´ÕÊÜ
+P
+java:S1117€"9Rename "name" which hides the field declared at line 647.(„ÆÕÁ
+n
+java:S3776ö"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(ññìŸúÿÿÿÿ
+a
+java:S1124¸"EReorder the modifiers to comply with the Java Language Specification.(šˆ°âÿÿÿÿÿ
+h
+java:S3776	"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(é®Ï
+<
+java:S1452	"&Remove usage of generic wildcard type.(é®Ï
+Q
+java:S1161À
+":Add the "@Override" annotation above this method signature(ÒÅ™Ş
+<
+java:S1181Ï
+"%Catch Exception instead of Throwable.(¦ÆÏ
+C
+java:S1872ƒ"'Use an "instanceof" comparison instead.(¹ÿÜÔùÿÿÿÿ
+=
+java:S1452ñ"&Remove usage of generic wildcard type.(…£ç¦
+=
+java:S1452â"&Remove usage of generic wildcard type.(°’ğœ
+R
+java:S2696ƒ"6Make the enclosing method "static" or remove this set.(©—áñøÿÿÿÿ
+U
+java:S1117¾"9Rename "name" which hides the field declared at line 647.(ÚÖÃÖùÿÿÿÿ
+p	java:S115ğ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(®Œ ¨
+u	java:S115ò"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(£ÊÖûûÿÿÿÿ
+p	java:S115ô"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ŞÂ°
+8
+java:S2326‹"T is not used in the method.(·ç­™ûÿÿÿÿ
+3
+java:S2326‘"T is not used in the method.(ğÅëã
+=
+java:S3077¡"&Use an "AtomicReferenceArray" instead.(ÔÏø¤
+B
+java:S3077¢"&Use an "AtomicReferenceArray" instead.(„ËÎüÿÿÿÿ
+;
+java:S3077£"&Use an "AtomicReferenceArray" instead.(Æ†
+B
+java:S3077¤"&Use an "AtomicReferenceArray" instead.(‡¬ÔÍıÿÿÿÿ
+<
+java:S3077¥"&Use an "AtomicReferenceArray" instead.(ÇŞÍK
+B
+java:S3077¦"&Use an "AtomicReferenceArray" instead.(½×€‹ûÿÿÿÿ
+=
+java:S3077¨"&Use an "AtomicReferenceArray" instead.(´¹£ê
+B
+java:S3077©"&Use an "AtomicReferenceArray" instead.(ù“¬úÿÿÿÿ
+=
+java:S3077ª"&Use an "AtomicReferenceArray" instead.(‰§¤š
+a
+java:S1124´"EReorder the modifiers to comply with the Java Language Specification.(ï¹ëÿÿÿÿÿ
+\
+java:S1124¸"EReorder the modifiers to comply with the Java Language Specification.(°ô‹ä
+`
+java:S1117¼"DRename "reflectionData" which hides the field declared at line 2484.(Òæ±çúÿÿÿÿ
+e
+java:S1117½"IRename "classRedefinedCount" which hides the field declared at line 2488.(”°¾Åıÿÿÿÿ
+a
+java:S1124ã"EReorder the modifiers to comply with the Java Language Specification.(¨ı‹œûÿÿÿÿ
+W	java:S125ë"<This block of commented-out lines of code should be removed.(“½ıÿÿÿÿ
+]
+java:S1117î"ARename "genericInfo" which hides the field declared at line 2531.(£ó¾ıÿÿÿÿ
+o
+java:S3012Ó"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(ÄÆÎM
+n
+java:S3776Ÿ"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ĞÆûÛüÿÿÿÿ
+h
+java:S3776É"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(›Š
+B
+java:S1168í"&Return an empty array instead of null.(ûÃıöûÿÿÿÿ
+C
+java:S3011ó",This accessibility update should be removed.(ì…´Á
+=
+java:S1168ş"&Return an empty array instead of null.(ÁóšÚ
+a
+java:S1124‚"EReorder the modifiers to comply with the Java Language Specification.(¿’¯‚øÿÿÿÿ
+\
+java:S1124˜"EReorder the modifiers to comply with the Java Language Specification.(‡ ’Õ
+Z
+java:S1117ì"DRename "annotationData" which hides the field declared at line 3498.(´äÓ4
+a
+java:S1124«"EReorder the modifiers to comply with the Java Language Specification.(Ñşé‚üÿÿÿÿ
+[
+java:S1117¯"DRename "annotationData" which hides the field declared at line 3498.(›¡µ·
+e
+java:S1117°"IRename "classRedefinedCount" which hides the field declared at line 2488.(”°¾Åıÿÿÿÿ
+\
+java:S1124â"EReorder the modifiers to comply with the Java Language Specification.(ú  İ
+K
+java:S1144‰"/Remove this unused private "Class" constructor.(’×à™şÿÿÿÿ
+o	java:S135¨"YReduce the total number of break and continue statements in this loop to use at most one.(®™­Ø
+K
+java:S1066¢"/Merge this if statement with the enclosing one.(ı›©úÿÿÿÿ
+K
+java:S1066«"/Merge this if statement with the enclosing one.(÷»†øÿÿÿÿ
+F
+java:S1066®"/Merge this if statement with the enclosing one.(ÂØœ„
+K
+java:S1066ë"/Merge this if statement with the enclosing one.(Ñ¨†ßûÿÿÿÿ
+F
+java:S1066ò"/Merge this if statement with the enclosing one.(Êêå¢
+?
+java:S1604¢"(Make this anonymous inner class a lambda(’­Ûü
+?
+java:S1604Û"(Make this anonymous inner class a lambda(¥¬ê
+>
+java:S1604¹"(Make this anonymous inner class a lambda(ÆŞÖ
+?
+java:S1604ñ"(Make this anonymous inner class a lambda(’­Ûü
+S
+java:S4973Î"<Strings and Boxed types should be compared using "equals()".(å›î¬
+X
+java:S4973ƒ"<Strings and Boxed types should be compared using "equals()".(Í®Ğÿÿÿÿÿ
+S
+java:S4973"<Strings and Boxed types should be compared using "equals()".(ö¹îĞ
+X
+java:S4973¾"<Strings and Boxed types should be compared using "equals()".(Ã¯Ìüÿÿÿÿ
+K
+java:S11919"5Use classes from the Java API instead of Sun classes.(éª‚€
+I
+java:S1199Õ"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ

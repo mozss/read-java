@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>D:/data-mozss/code/workspace-project-github-mozss/study-read/read-java/src/java/util</OriginalElement>
+  <nodes>
+    <node x="2018.3660968660972" y="426.0">java.util.concurrent.ScheduledFuture</node>
+    <node x="4917.800747863248" y="176.0">java.util.SortedSet</node>
+    <node x="5562.866096866097" y="508.0">java.util.concurrent.RecursiveTask</node>
+    <node x="1808.3660968660972" y="426.0">java.util.PriorityQueue</node>
+    <node x="1438.1577635327637" y="302.0">java.util.AbstractQueue</node>
+    <node x="3399.4583333333335" y="176.0">java.util.AbstractList</node>
+    <node x="979.6994301994305" y="426.0">java.util.concurrent.PriorityBlockingQueue</node>
+    <node x="3763.866096866097" y="302.0">java.util.concurrent.Future</node>
+    <node x="1420.1577635327637" y="82.0">java.util.AbstractCollection</node>
+    <node x="4193.866096866097" y="302.0">java.util.Vector</node>
+    <node x="4985.425747863248" y="508.0">java.util.concurrent.CountedCompleter</node>
+    <node x="2124.741096866097" y="508.0">java.util.concurrent.RunnableScheduledFuture</node>
+    <node x="853.4597222222221" y="749.0">java.util.Map</node>
+    <node x="2217.6390669515667" y="302.0">java.util.concurrent.Delayed</node>
+    <node x="4947.925747863248" y="590.0">java.util.stream.AbstractTask</node>
+    <node x="4483.616096866097" y="302.0">java.util.EnumSet</node>
+    <node x="801.9999999999999" y="1005.0">java.util.IdentityHashMap</node>
+    <node x="2483.366096866097" y="426.0">java.util.concurrent.SynchronousQueue</node>
+    <node x="1060.0" y="1005.0">java.util.EnumMap</node>
+    <node x="0.0" y="1005.0">java.util.concurrent.ConcurrentNavigableMap</node>
+    <node x="2477.741096866097" y="0.0">java.util.Collection</node>
+    <node x="322.9999999999999" y="1005.0">java.util.concurrent.ConcurrentHashMap</node>
+    <node x="5457.481481481482" y="82.0">java.util.Set</node>
+    <node x="5774.866096866097" y="508.0">java.util.concurrent.RecursiveAction</node>
+    <node x="101.02314814814827" y="176.0">java.util.concurrent.BlockingQueue</node>
+    <node x="5162.116096866097" y="302.0">java.util.NavigableSet</node>
+    <node x="5400.366096866097" y="302.0">java.util.concurrent.CopyOnWriteArraySet</node>
+    <node x="314.6249999999999" y="919.0">java.util.NavigableMap</node>
+    <node x="1589.8055555555554" y="833.0">java.util.jar.Attributes</node>
+    <node x="3051.366096866097" y="302.0">java.util.AbstractSequentialList</node>
+    <node x="698.6994301994305" y="426.0">java.util.concurrent.LinkedBlockingQueue</node>
+    <node x="4568.366096866097" y="426.0">java.util.RegularEnumSet</node>
+    <node x="1547.3660968660972" y="426.0">java.util.concurrent.ArrayBlockingQueue</node>
+    <node x="3513.866096866097" y="82.0">java.util.List</node>
+    <node x="4925.116096866097" y="302.0">java.util.concurrent.CompletionStage</node>
+    <node x="2254.616096866097" y="82.0">java.util.Queue</node>
+    <node x="1746.8055555555554" y="749.0">java.util.Dictionary</node>
+    <node x="4902.925747863248" y="672.0">java.util.stream.AbstractShortCircuitTask</node>
+    <node x="327.6249999999999" y="833.0">java.util.SortedMap</node>
+    <node x="3920.866096866097" y="302.0">java.util.concurrent.CopyOnWriteArrayList</node>
+    <node x="2737.366096866097" y="426.0">java.util.concurrent.ConcurrentLinkedQueue</node>
+    <node x="0.0" y="426.0">java.util.concurrent.LinkedTransferQueue</node>
+    <node x="5263.425747863248" y="176.0">java.util.AbstractSet</node>
+    <node x="1911.1160968660972" y="508.0">java.util.concurrent.FutureTask</node>
+    <node x="5127.616096866097" y="426.0">java.util.concurrent.CompletableFuture</node>
+    <node x="1265.0" y="1005.0">java.util.HashMap</node>
+    <node x="1003.4494301994305" y="176.0">java.util.Deque</node>
+    <node x="4198.366096866097" y="426.0">java.util.Stack</node>
+    <node x="5404.366096866097" y="426.0">java.util.TreeSet</node>
+    <node x="55.7208333333333" y="919.0">java.util.concurrent.ConcurrentMap</node>
+    <node x="3324.366096866097" y="302.0">java.util.ArrayList</node>
+    <node x="1446.3055555555554" y="1089.0">java.util.LinkedHashMap</node>
+    <node x="5793.491096866097" y="302.0">java.util.HashSet</node>
+    <node x="3594.7083333333335" y="176.0">java.util.RandomAccess</node>
+    <node x="3494.366096866097" y="302.0">java.util.SubList</node>
+    <node x="1301.157763532764" y="426.0">java.util.concurrent.DelayQueue</node>
+    <node x="3029.366096866097" y="426.0">java.util.LinkedList</node>
+    <node x="5810.491096866097" y="426.0">java.util.LinkedHashSet</node>
+    <node x="1464.0" y="1005.0">java.util.WeakHashMap</node>
+    <node x="1742.3055555555554" y="833.0">java.util.Hashtable</node>
+    <node x="2254.366096866097" y="426.0">java.util.concurrent.RunnableFuture</node>
+    <node x="5566.366096866097" y="426.0">java.util.concurrent.ForkJoinTask</node>
+    <node x="1768.8055555555554" y="919.0">java.util.Properties</node>
+    <node x="320.27314814814827" y="302.0">java.util.concurrent.BlockingDeque</node>
+    <node x="3532.116096866097" y="426.0">java.util.RandomAccessSubList</node>
+    <node x="52.273148148148266" y="302.0">java.util.concurrent.TransferQueue</node>
+    <node x="691.8424145299145" y="302.0">java.util.concurrent.ConcurrentLinkedDeque</node>
+    <node x="947.4999999999999" y="919.0">java.util.AbstractMap</node>
+    <node x="452.80555555555543" y="1089.0">java.util.concurrent.ConcurrentSkipListMap</node>
+    <node x="607.9999999999999" y="1005.0">java.util.TreeMap</node>
+    <node x="4855.616096866097" y="426.0">java.util.concurrent.ConcurrentSkipListSet</node>
+    <node x="428.6994301994305" y="426.0">java.util.concurrent.LinkedBlockingDeque</node>
+    <node x="4344.366096866097" y="426.0">java.util.JumboEnumSet</node>
+    <node x="1243.1577635327637" y="302.0">java.util.ArrayDeque</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.concurrent.ConcurrentLinkedDeque" target="java.util.Deque" relationship="REALIZATION">
+      <point x="67.75" y="-16.0" />
+      <point x="895.0924145299145" y="270.0" />
+      <point x="1335.9077635327637" y="270.0" />
+      <point x="1335.9077635327637" y="230.0" />
+      <point x="1104.6994301994305" y="230.0" />
+      <point x="33.75" y="16.0" />
+    </edge>
+    <edge source="java.util.WeakHashMap" target="java.util.Map" relationship="REALIZATION">
+      <point x="55.5" y="-16.0" />
+      <point x="1630.5" y="983.0" />
+      <point x="1579.3055555555554" y="983.0" />
+      <point x="1579.3055555555554" y="812.0" />
+      <point x="1585.0" y="812.0" />
+      <point x="1585.0" y="802.0" />
+      <point x="959.2097222222221" y="802.0" />
+      <point x="35.25" y="16.0" />
+    </edge>
+    <edge source="java.util.HashSet" target="java.util.Set" relationship="REALIZATION">
+      <point x="36.75" y="-16.0" />
+      <point x="5903.741096866097" y="280.0" />
+      <point x="5871.991096866097" y="280.0" />
+      <point x="5871.991096866097" y="155.0" />
+      <point x="5670.050747863248" y="155.0" />
+      <point x="5670.050747863248" y="145.0" />
+      <point x="5539.231481481482" y="145.0" />
+      <point x="27.25" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.LinkedBlockingDeque" target="java.util.AbstractQueue" relationship="GENERALIZATION">
+      <point x="62.5" y="-16.0" />
+      <point x="616.1994301994305" y="405.0" />
+      <point x="1537.6577635327637" y="405.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.TreeMap" target="java.util.AbstractMap" relationship="GENERALIZATION">
+      <point x="43.5" y="-16.0" />
+      <point x="738.4999999999999" y="983.0" />
+      <point x="1049.5" y="983.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.DelayQueue" target="java.util.concurrent.Delayed" relationship="DEPENDENCY">
+      <point x="59.33333333333326" y="-16.0" />
+      <point x="1449.4910968660972" y="365.0" />
+      <point x="2245.8890669515667" y="365.0" />
+      <point x="-28.25" y="16.0" />
+    </edge>
+    <edge source="java.util.AbstractList" target="java.util.AbstractCollection" relationship="GENERALIZATION">
+      <point x="-43.25" y="-16.0" />
+      <point x="3442.7083333333335" y="145.0" />
+      <point x="1532.1577635327637" y="145.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.AbstractSet" target="java.util.Set" relationship="REALIZATION">
+      <point x="43.0" y="-16.0" />
+      <point x="5392.425747863248" y="155.0" />
+      <point x="5670.050747863248" y="155.0" />
+      <point x="5670.050747863248" y="145.0" />
+      <point x="5539.231481481482" y="145.0" />
+      <point x="27.25" y="16.0" />
+    </edge>
+    <edge source="java.util.LinkedHashMap" target="java.util.Map" relationship="REALIZATION">
+      <point x="57.25" y="-16.0" />
+      <point x="1618.0555555555554" y="1063.0" />
+      <point x="1731.8055555555554" y="1063.0" />
+      <point x="1731.8055555555554" y="812.0" />
+      <point x="1585.0" y="812.0" />
+      <point x="1585.0" y="802.0" />
+      <point x="959.2097222222221" y="802.0" />
+      <point x="35.25" y="16.0" />
+    </edge>
+    <edge source="java.util.HashMap" target="java.util.Map" relationship="REALIZATION">
+      <point x="44.75" y="-16.0" />
+      <point x="1399.25" y="973.0" />
+      <point x="1464.375" y="973.0" />
+      <point x="1464.375" y="812.0" />
+      <point x="1585.0" y="812.0" />
+      <point x="1585.0" y="802.0" />
+      <point x="959.2097222222221" y="802.0" />
+      <point x="35.25" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.CopyOnWriteArrayList" target="java.util.RandomAccess" relationship="REALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="4047.366096866097" y="240.0" />
+      <point x="3677.7083333333335" y="240.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.CopyOnWriteArrayList" target="java.util.List" relationship="REALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="4047.366096866097" y="155.0" />
+      <point x="3568.866096866097" y="155.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.Stack" target="java.util.Vector" relationship="GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentMap" target="java.util.Map" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="169.2208333333333" y="812.0" />
+      <point x="294.80555555555543" y="812.0" />
+      <point x="294.80555555555543" y="802.0" />
+      <point x="888.7097222222221" y="802.0" />
+      <point x="-35.25" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListSet" target="java.util.AbstractSet" relationship="GENERALIZATION">
+      <point x="-63.0" y="-16.0" />
+      <point x="4918.616096866097" y="405.0" />
+      <point x="4811.616096866097" y="405.0" />
+      <point x="4811.616096866097" y="280.0" />
+      <point x="5349.425747863248" y="280.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.ArrayDeque" target="java.util.Deque" relationship="REALIZATION">
+      <point x="43.75" y="-16.0" />
+      <point x="1374.4077635327637" y="270.0" />
+      <point x="1335.9077635327637" y="270.0" />
+      <point x="1335.9077635327637" y="230.0" />
+      <point x="1104.6994301994305" y="230.0" />
+      <point x="33.75" y="16.0" />
+    </edge>
+    <edge source="java.util.Deque" target="java.util.Queue" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="1070.9494301994305" y="155.0" />
+      <point x="748.5744301994305" y="155.0" />
+      <point x="748.5744301994305" y="135.0" />
+      <point x="2288.616096866097" y="135.0" />
+      <point x="-34.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.SynchronousQueue" target="java.util.concurrent.BlockingQueue" relationship="REALIZATION">
+      <point x="58.5" y="-16.0" />
+      <point x="2658.866096866097" y="395.0" />
+      <point x="2605.366096866097" y="395.0" />
+      <point x="2605.366096866097" y="280.0" />
+      <point x="1232.6577635327637" y="280.0" />
+      <point x="1232.6577635327637" y="240.0" />
+      <point x="251.77314814814827" y="240.0" />
+      <point x="50.25" y="16.0" />
+    </edge>
+    <edge source="java.util.AbstractMap" target="java.util.Map" relationship="REALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="1049.5" y="812.0" />
+      <point x="1585.0" y="812.0" />
+      <point x="1585.0" y="802.0" />
+      <point x="959.2097222222221" y="802.0" />
+      <point x="35.25" y="16.0" />
+    </edge>
+    <edge source="java.util.LinkedHashSet" target="java.util.Set" relationship="REALIZATION">
+      <point x="49.25" y="-16.0" />
+      <point x="5958.241096866097" y="405.0" />
+      <point x="5950.991096866097" y="405.0" />
+      <point x="5950.991096866097" y="155.0" />
+      <point x="5670.050747863248" y="155.0" />
+      <point x="5670.050747863248" y="145.0" />
+      <point x="5539.231481481482" y="145.0" />
+      <point x="27.25" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentNavigableMap" target="java.util.concurrent.ConcurrentMap" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="151.4999999999999" y="973.0" />
+      <point x="112.4708333333333" y="973.0" />
+      <point x="-56.75" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.ForkJoinTask" target="java.util.concurrent.Future" relationship="REALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="5658.866096866097" y="385.0" />
+      <point x="5406.323717948718" y="385.0" />
+      <point x="5406.323717948718" y="375.0" />
+      <point x="3866.616096866097" y="375.0" />
+      <point x="34.25" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.BlockingDeque" target="java.util.concurrent.BlockingQueue" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="420.27314814814827" y="250.0" />
+      <point x="151.27314814814827" y="250.0" />
+      <point x="-50.25" y="16.0" />
+    </edge>
+    <edge source="java.util.LinkedHashSet" target="java.util.HashSet" relationship="GENERALIZATION">
+      <point x="-49.25" y="-16.0" />
+      <point x="5859.741096866097" y="405.0" />
+      <point x="5866.991096866097" y="405.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap" target="java.util.AbstractMap" relationship="GENERALIZATION">
+      <point x="71.0" y="-16.0" />
+      <point x="665.8055555555554" y="1063.0" />
+      <point x="1049.5" y="1063.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.RandomAccessSubList" target="java.util.RandomAccess" relationship="REALIZATION">
+      <point x="63.25" y="-16.0" />
+      <point x="3721.866096866097" y="405.0" />
+      <point x="3753.366096866097" y="405.0" />
+      <point x="3753.366096866097" y="250.0" />
+      <point x="3677.7083333333335" y="250.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.TransferQueue" target="java.util.concurrent.BlockingQueue" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="-50.25" y="16.0" />
+    </edge>
+    <edge source="java.util.EnumMap" target="java.util.AbstractMap" relationship="GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="1152.5" y="983.0" />
+      <point x="1049.5" y="983.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.Set" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="5511.981481481482" y="62.0" />
+      <point x="3568.866096866097" y="62.0" />
+      <point x="3568.866096866097" y="52.0" />
+      <point x="2598.491096866097" y="52.0" />
+      <point x="40.25" y="16.0" />
+    </edge>
+    <edge source="java.util.Hashtable" target="java.util.Dictionary" relationship="GENERALIZATION">
+      <point x="45.5" y="-16.0" />
+      <point x="1878.8055555555554" y="812.0" />
+      <point x="1838.3055555555554" y="812.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.EnumSet" target="java.util.AbstractSet" relationship="GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="4560.116096866097" y="280.0" />
+      <point x="5349.425747863248" y="280.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.CountedCompleter" target="java.util.concurrent.ForkJoinTask" relationship="GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="5100.925747863248" y="488.0" />
+      <point x="5658.866096866097" y="488.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.IdentityHashMap" target="java.util.AbstractMap" relationship="GENERALIZATION">
+      <point x="59.25" y="-16.0" />
+      <point x="979.7499999999999" y="983.0" />
+      <point x="1049.5" y="983.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentLinkedDeque" target="java.util.AbstractCollection" relationship="GENERALIZATION">
+      <point x="-67.75" y="-16.0" />
+      <point x="759.5924145299145" y="250.0" />
+      <point x="822.7731481481483" y="250.0" />
+      <point x="822.7731481481483" y="145.0" />
+      <point x="1532.1577635327637" y="145.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.ScheduledFuture" target="java.util.concurrent.Future" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="2126.366096866097" y="385.0" />
+      <point x="2455.7314814814818" y="385.0" />
+      <point x="2455.7314814814818" y="375.0" />
+      <point x="3798.116096866097" y="375.0" />
+      <point x="-34.25" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap" target="java.util.concurrent.ConcurrentMap" relationship="REALIZATION">
+      <point x="-66.25" y="-16.0" />
+      <point x="389.2499999999999" y="983.0" />
+      <point x="225.9708333333333" y="983.0" />
+      <point x="56.75" y="16.0" />
+    </edge>
+    <edge source="java.util.AbstractSequentialList" target="java.util.AbstractList" relationship="GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="3177.866096866097" y="270.0" />
+      <point x="3485.9583333333335" y="270.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.ScheduledFuture" target="java.util.concurrent.Delayed" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="2126.366096866097" y="375.0" />
+      <point x="2302.3890669515667" y="375.0" />
+      <point x="28.25" y="16.0" />
+    </edge>
+    <edge source="java.util.WeakHashMap" target="java.util.AbstractMap" relationship="GENERALIZATION">
+      <point x="-55.5" y="-16.0" />
+      <point x="1519.5" y="983.0" />
+      <point x="1049.5" y="983.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.Vector" target="java.util.RandomAccess" relationship="REALIZATION">
+      <point x="33.75" y="-16.0" />
+      <point x="4295.116096866097" y="230.0" />
+      <point x="3677.7083333333335" y="230.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.AbstractSet" target="java.util.AbstractCollection" relationship="GENERALIZATION">
+      <point x="-43.0" y="-16.0" />
+      <point x="5306.425747863248" y="145.0" />
+      <point x="1532.157763532764" y="145.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.BlockingDeque" target="java.util.Deque" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="420.27314814814827" y="260.0" />
+      <point x="1037.1994301994305" y="260.0" />
+      <point x="-33.75" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.PriorityBlockingQueue" target="java.util.concurrent.BlockingQueue" relationship="REALIZATION">
+      <point x="-63.75" y="-16.0" />
+      <point x="1043.4494301994305" y="395.0" />
+      <point x="973.3424145299145" y="395.0" />
+      <point x="973.3424145299145" y="280.0" />
+      <point x="1232.6577635327637" y="280.0" />
+      <point x="1232.6577635327637" y="240.0" />
+      <point x="251.77314814814827" y="240.0" />
+      <point x="50.25" y="16.0" />
+    </edge>
+    <edge source="java.util.JumboEnumSet" target="java.util.EnumSet" relationship="GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="4446.366096866097" y="405.0" />
+      <point x="4560.116096866097" y="405.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.ArrayBlockingQueue" target="java.util.AbstractQueue" relationship="GENERALIZATION">
+      <point x="-60.25" y="-16.0" />
+      <point x="1607.6160968660972" y="405.0" />
+      <point x="1537.6577635327637" y="405.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.RecursiveAction" target="java.util.concurrent.ForkJoinTask" relationship="GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="5860.866096866097" y="488.0" />
+      <point x="5658.866096866097" y="488.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.TreeSet" target="java.util.AbstractSet" relationship="GENERALIZATION">
+      <point x="35.5" y="-16.0" />
+      <point x="5510.866096866097" y="405.0" />
+      <point x="5662.866096866097" y="405.0" />
+      <point x="5662.866096866097" y="280.0" />
+      <point x="5349.425747863248" y="280.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.DelayQueue" target="java.util.AbstractQueue" relationship="GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="1390.157763532764" y="405.0" />
+      <point x="1537.6577635327637" y="405.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.RunnableScheduledFuture" target="java.util.concurrent.RunnableFuture" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="2268.741096866097" y="478.0" />
+      <point x="2411.116096866097" y="478.0" />
+      <point x="52.25" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.LinkedBlockingQueue" target="java.util.concurrent.BlockingQueue" relationship="REALIZATION">
+      <point x="-62.75" y="-16.0" />
+      <point x="761.4494301994305" y="395.0" />
+      <point x="681.3424145299145" y="395.0" />
+      <point x="681.3424145299145" y="280.0" />
+      <point x="1232.6577635327637" y="280.0" />
+      <point x="1232.6577635327637" y="240.0" />
+      <point x="251.77314814814827" y="240.0" />
+      <point x="50.25" y="16.0" />
+    </edge>
+    <edge source="java.util.stream.AbstractTask" target="java.util.concurrent.CountedCompleter" relationship="GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.jar.Attributes" target="java.util.Map" relationship="REALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="1653.3055555555554" y="812.0" />
+      <point x="1585.0" y="812.0" />
+      <point x="1585.0" y="802.0" />
+      <point x="959.2097222222221" y="802.0" />
+      <point x="35.25" y="16.0" />
+    </edge>
+    <edge source="java.util.LinkedList" target="java.util.AbstractSequentialList" relationship="GENERALIZATION">
+      <point x="40.0" y="-16.0" />
+      <point x="3149.366096866097" y="405.0" />
+      <point x="3177.866096866097" y="405.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.Vector" target="java.util.List" relationship="REALIZATION">
+      <point x="33.75" y="-16.0" />
+      <point x="4295.116096866097" y="155.0" />
+      <point x="3568.866096866097" y="155.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.RandomAccessSubList" target="java.util.SubList" relationship="GENERALIZATION">
+      <point x="-63.25" y="-16.0" />
+      <point x="3595.366096866097" y="405.0" />
+      <point x="3563.866096866097" y="405.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.LinkedTransferQueue" target="java.util.AbstractQueue" relationship="GENERALIZATION">
+      <point x="62.0" y="-16.0" />
+      <point x="186.0" y="405.0" />
+      <point x="1537.6577635327637" y="405.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListSet" target="java.util.NavigableSet" relationship="REALIZATION">
+      <point x="63.0" y="-16.0" />
+      <point x="5044.616096866097" y="405.0" />
+      <point x="5254.616096866097" y="405.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.AbstractCollection" target="java.util.Collection" relationship="REALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="1532.1577635327637" y="52.0" />
+      <point x="2517.991096866097" y="52.0" />
+      <point x="-40.25" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture" target="java.util.concurrent.Future" relationship="REALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="5243.616096866097" y="395.0" />
+      <point x="5406.323717948718" y="395.0" />
+      <point x="5406.323717948718" y="375.0" />
+      <point x="3866.616096866097" y="375.0" />
+      <point x="34.25" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.CopyOnWriteArraySet" target="java.util.AbstractSet" relationship="GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="5526.366096866097" y="280.0" />
+      <point x="5349.425747863248" y="280.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.Queue" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="2322.616096866097" y="62.0" />
+      <point x="3568.866096866097" y="62.0" />
+      <point x="3568.866096866097" y="52.0" />
+      <point x="2598.491096866097" y="52.0" />
+      <point x="40.25" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.FutureTask" target="java.util.concurrent.RunnableFuture" relationship="REALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="1996.6160968660972" y="488.0" />
+      <point x="2306.616096866097" y="488.0" />
+      <point x="-52.25" y="16.0" />
+    </edge>
+    <edge source="java.util.Vector" target="java.util.AbstractList" relationship="GENERALIZATION">
+      <point x="-33.75" y="-16.0" />
+      <point x="4227.616096866097" y="270.0" />
+      <point x="3485.9583333333335" y="270.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.List" target="java.util.Collection" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="3568.866096866097" y="52.0" />
+      <point x="2598.491096866097" y="52.0" />
+      <point x="40.25" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentLinkedQueue" target="java.util.AbstractQueue" relationship="GENERALIZATION">
+      <point x="-68.0" y="-16.0" />
+      <point x="2805.366096866097" y="405.0" />
+      <point x="1537.6577635327637" y="405.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentLinkedQueue" target="java.util.Queue" relationship="REALIZATION">
+      <point x="68.0" y="-16.0" />
+      <point x="2941.366096866097" y="405.0" />
+      <point x="2878.366096866097" y="405.0" />
+      <point x="2878.366096866097" y="155.0" />
+      <point x="2356.616096866097" y="155.0" />
+      <point x="34.0" y="16.0" />
+    </edge>
+    <edge source="java.util.Hashtable" target="java.util.Map" relationship="REALIZATION">
+      <point x="-45.5" y="-16.0" />
+      <point x="1787.8055555555554" y="812.0" />
+      <point x="1585.0" y="812.0" />
+      <point x="1585.0" y="802.0" />
+      <point x="959.2097222222221" y="802.0" />
+      <point x="35.25" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.SynchronousQueue" target="java.util.AbstractQueue" relationship="GENERALIZATION">
+      <point x="-58.5" y="-16.0" />
+      <point x="2541.866096866097" y="405.0" />
+      <point x="1537.6577635327637" y="405.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.AbstractQueue" target="java.util.AbstractCollection" relationship="GENERALIZATION">
+      <point x="-49.75" y="-16.0" />
+      <point x="1487.9077635327637" y="260.0" />
+      <point x="1532.1577635327637" y="260.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.PriorityBlockingQueue" target="java.util.AbstractQueue" relationship="GENERALIZATION">
+      <point x="63.75" y="-16.0" />
+      <point x="1170.9494301994305" y="405.0" />
+      <point x="1537.6577635327637" y="405.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.LinkedList" target="java.util.List" relationship="REALIZATION">
+      <point x="-40.0" y="-16.0" />
+      <point x="3069.366096866097" y="405.0" />
+      <point x="3040.866096866097" y="405.0" />
+      <point x="3040.866096866097" y="155.0" />
+      <point x="3568.866096866097" y="155.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.RunnableFuture" target="java.util.concurrent.Future" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="2358.866096866097" y="395.0" />
+      <point x="2455.7314814814818" y="395.0" />
+      <point x="2455.7314814814818" y="375.0" />
+      <point x="3798.116096866097" y="375.0" />
+      <point x="-34.25" y="16.0" />
+    </edge>
+    <edge source="java.util.AbstractList" target="java.util.List" relationship="REALIZATION">
+      <point x="43.25" y="-16.0" />
+      <point x="3529.2083333333335" y="155.0" />
+      <point x="3568.866096866097" y="155.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.SubList" target="java.util.AbstractList" relationship="GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="3563.866096866097" y="270.0" />
+      <point x="3485.9583333333335" y="270.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.stream.AbstractShortCircuitTask" target="java.util.stream.AbstractTask" relationship="GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.LinkedBlockingDeque" target="java.util.concurrent.BlockingDeque" relationship="REALIZATION">
+      <point x="-62.5" y="-16.0" />
+      <point x="491.1994301994305" y="395.0" />
+      <point x="420.27314814814827" y="395.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.TreeSet" target="java.util.NavigableSet" relationship="REALIZATION">
+      <point x="-35.5" y="-16.0" />
+      <point x="5439.866096866097" y="405.0" />
+      <point x="5254.616096866097" y="405.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.BlockingQueue" target="java.util.Queue" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="201.52314814814827" y="155.0" />
+      <point x="748.5744301994305" y="155.0" />
+      <point x="748.5744301994305" y="135.0" />
+      <point x="2288.616096866097" y="135.0" />
+      <point x="-34.0" y="16.0" />
+    </edge>
+    <edge source="java.util.PriorityQueue" target="java.util.AbstractQueue" relationship="GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="1903.3660968660972" y="405.0" />
+      <point x="1537.6577635327637" y="405.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.LinkedHashMap" target="java.util.HashMap" relationship="GENERALIZATION">
+      <point x="-57.25" y="-16.0" />
+      <point x="1503.5555555555554" y="1063.0" />
+      <point x="1354.5" y="1063.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentHashMap" target="java.util.AbstractMap" relationship="GENERALIZATION">
+      <point x="66.25" y="-16.0" />
+      <point x="521.7499999999999" y="983.0" />
+      <point x="1049.5" y="983.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentNavigableMap" target="java.util.NavigableMap" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="151.4999999999999" y="973.0" />
+      <point x="368.8749999999999" y="973.0" />
+      <point x="-54.25" y="16.0" />
+    </edge>
+    <edge source="java.util.HashSet" target="java.util.AbstractSet" relationship="GENERALIZATION">
+      <point x="-36.75" y="-16.0" />
+      <point x="5830.241096866097" y="280.0" />
+      <point x="5349.425747863248" y="280.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.CompletableFuture" target="java.util.concurrent.CompletionStage" relationship="REALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="5243.616096866097" y="385.0" />
+      <point x="5033.616096866097" y="385.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.ConcurrentSkipListMap" target="java.util.concurrent.ConcurrentNavigableMap" relationship="REALIZATION">
+      <point x="-71.0" y="-16.0" />
+      <point x="523.8055555555554" y="1063.0" />
+      <point x="151.5" y="1063.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.TreeMap" target="java.util.NavigableMap" relationship="REALIZATION">
+      <point x="-43.5" y="-16.0" />
+      <point x="651.4999999999999" y="973.0" />
+      <point x="477.3749999999999" y="973.0" />
+      <point x="54.25" y="16.0" />
+    </edge>
+    <edge source="java.util.Properties" target="java.util.Hashtable" relationship="GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.ArrayBlockingQueue" target="java.util.concurrent.BlockingQueue" relationship="REALIZATION">
+      <point x="60.25" y="-16.0" />
+      <point x="1728.1160968660972" y="355.0" />
+      <point x="1876.014066951567" y="355.0" />
+      <point x="1876.014066951567" y="280.0" />
+      <point x="1232.6577635327637" y="280.0" />
+      <point x="1232.6577635327637" y="240.0" />
+      <point x="251.77314814814827" y="240.0" />
+      <point x="50.25" y="16.0" />
+    </edge>
+    <edge source="java.util.SortedMap" target="java.util.Map" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="423.1249999999999" y="812.0" />
+      <point x="294.80555555555543" y="812.0" />
+      <point x="294.80555555555543" y="802.0" />
+      <point x="888.7097222222221" y="802.0" />
+      <point x="-35.25" y="16.0" />
+    </edge>
+    <edge source="java.util.RegularEnumSet" target="java.util.EnumSet" relationship="GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="4673.866096866097" y="405.0" />
+      <point x="4560.116096866097" y="405.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.ArrayList" target="java.util.List" relationship="REALIZATION">
+      <point x="37.5" y="-16.0" />
+      <point x="3436.866096866097" y="280.0" />
+      <point x="3404.366096866097" y="280.0" />
+      <point x="3404.366096866097" y="250.0" />
+      <point x="3353.9583333333335" y="250.0" />
+      <point x="3353.9583333333335" y="155.0" />
+      <point x="3568.866096866097" y="155.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.RunnableScheduledFuture" target="java.util.concurrent.ScheduledFuture" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="2268.741096866097" y="478.0" />
+      <point x="2126.366096866097" y="478.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.ArrayDeque" target="java.util.AbstractCollection" relationship="GENERALIZATION">
+      <point x="-43.75" y="-16.0" />
+      <point x="1286.9077635327637" y="260.0" />
+      <point x="1325.4077635327637" y="260.0" />
+      <point x="1325.4077635327637" y="145.0" />
+      <point x="1532.1577635327637" y="145.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.HashMap" target="java.util.AbstractMap" relationship="GENERALIZATION">
+      <point x="-44.75" y="-16.0" />
+      <point x="1309.75" y="983.0" />
+      <point x="1049.5" y="983.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.LinkedBlockingQueue" target="java.util.AbstractQueue" relationship="GENERALIZATION">
+      <point x="62.75" y="-16.0" />
+      <point x="886.9494301994305" y="405.0" />
+      <point x="1537.6577635327637" y="405.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.SortedSet" target="java.util.Set" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="4997.300747863248" y="135.0" />
+      <point x="5484.731481481482" y="135.0" />
+      <point x="-27.25" y="16.0" />
+    </edge>
+    <edge source="java.util.ArrayList" target="java.util.RandomAccess" relationship="REALIZATION">
+      <point x="37.5" y="-16.0" />
+      <point x="3436.866096866097" y="280.0" />
+      <point x="3404.366096866097" y="280.0" />
+      <point x="3404.366096866097" y="260.0" />
+      <point x="3677.7083333333335" y="260.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.LinkedList" target="java.util.Deque" relationship="REALIZATION">
+      <point x="-40.0" y="-16.0" />
+      <point x="3069.366096866097" y="405.0" />
+      <point x="3040.866096866097" y="405.0" />
+      <point x="3040.866096866097" y="270.0" />
+      <point x="1335.9077635327637" y="270.0" />
+      <point x="1335.9077635327637" y="230.0" />
+      <point x="1104.6994301994305" y="230.0" />
+      <point x="33.75" y="16.0" />
+    </edge>
+    <edge source="java.util.IdentityHashMap" target="java.util.Map" relationship="REALIZATION">
+      <point x="-59.25" y="-16.0" />
+      <point x="861.2499999999999" y="973.0" />
+      <point x="686.4999999999999" y="973.0" />
+      <point x="686.4999999999999" y="812.0" />
+      <point x="1585.0" y="812.0" />
+      <point x="1585.0" y="802.0" />
+      <point x="959.2097222222221" y="802.0" />
+      <point x="35.25" y="16.0" />
+    </edge>
+    <edge source="java.util.AbstractQueue" target="java.util.Queue" relationship="REALIZATION">
+      <point x="49.75" y="-16.0" />
+      <point x="1587.4077635327637" y="260.0" />
+      <point x="1654.6577635327637" y="260.0" />
+      <point x="1654.6577635327637" y="155.0" />
+      <point x="2356.616096866097" y="155.0" />
+      <point x="34.0" y="16.0" />
+    </edge>
+    <edge source="java.util.NavigableMap" target="java.util.SortedMap" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.DelayQueue" target="java.util.concurrent.BlockingQueue" relationship="REALIZATION">
+      <point x="-59.33333333333326" y="-16.0" />
+      <point x="1330.8244301994307" y="395.0" />
+      <point x="1069.7174145299145" y="395.0" />
+      <point x="1069.7174145299145" y="280.0" />
+      <point x="1232.6577635327637" y="280.0" />
+      <point x="1232.6577635327637" y="240.0" />
+      <point x="251.77314814814827" y="240.0" />
+      <point x="50.25" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.RecursiveTask" target="java.util.concurrent.ForkJoinTask" relationship="GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.ArrayList" target="java.util.AbstractList" relationship="GENERALIZATION">
+      <point x="-37.5" y="-16.0" />
+      <point x="3361.866096866097" y="270.0" />
+      <point x="3485.9583333333335" y="270.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.concurrent.LinkedTransferQueue" target="java.util.concurrent.TransferQueue" relationship="REALIZATION">
+      <point x="-62.0" y="-16.0" />
+      <point x="62.0" y="405.0" />
+      <point x="151.27314814814827" y="405.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+    <edge source="java.util.NavigableSet" target="java.util.SortedSet" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-16.0" />
+      <point x="5254.616096866097" y="270.0" />
+      <point x="4997.300747863248" y="270.0" />
+      <point x="0.0" y="16.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.26542800265428" showDependencies="false" x="3004.0" y="560.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

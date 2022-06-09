@@ -421,7 +421,7 @@ public class HashMap<K,V> extends AbstractMap<K,V>
      * @serial
      */
     // (The javadoc description is true upon serialization.
-    // Additionally, if the table array has not been allocated, this
+    // Aditionally, if the table array has not been allocated, this
     // field holds the initial array capacity, or zero signifying
     // DEFAULT_INITIAL_CAPACITY.)
     int threshold;

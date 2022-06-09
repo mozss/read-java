@@ -1,0 +1,71 @@
+
+a	java:S112½"FDefine and throw a dedicated exception instead of using a generic one.(øı¯¯ıÿÿÿÿ
+p
+java:S3008ó"TRename this field "usr_paths" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’µŞøÿÿÿÿ
+j
+java:S3008ô"TRename this field "sys_paths" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úåš
+
+java:S1149ú"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(…‡ÄÌúÿÿÿÿ
+
+java:S1149æ"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(ÖØé™üÿÿÿÿ
+|
+java:S1149é"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(•Ä’
+|
+java:S1149í"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(Î¢·ü
+l
+java:S1149ğ"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¬”Šêşÿÿÿÿ
+
+java:S1149æ"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(—¯„’ÿÿÿÿÿ
+
+java:S1149¥"eReplace the synchronized class "Vector" by an unsynchronized one such as "ArrayList" or "LinkedList".(—¯„’ÿÿÿÿÿ
+D
+java:S1172—"-Remove this unused method parameter "unused".(­¡º 
+Q
+java:S1133¿"5Do not forget to remove this deprecated code someday.(Î¡òûÿÿÿÿ
+A
+java:S1197®"*Move the array designators [] to the type.(ÅâğŠ
+]
+java:S1126ç"AReplace this if-then-else statement by a single return statement.(‘Æ¼½øÿÿÿÿ
+n
+java:S3776‹"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(—•ˆÇúÿÿÿÿ
+[
+java:S1124‘"EReorder the modifiers to comply with the Java Language Specification.(©ˆt
+ƒ
+java:S1130ø	"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ÃĞü
+i
+java:S3776§"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(ı–¯
+I
+java:S1113É"-Do not override the Object.finalize() method.(œäºÒúÿÿÿÿ
+F
+java:S1197ó"*Move the array designators [] to the type.(’µŞøÿÿÿÿ
+@
+java:S1197ô"*Move the array designators [] to the type.(úåš
+Z
+java:S1659ú">Declare "j" and all following declarations on a separate line.(ğŠøÿÿÿÿ
+h
+java:S3776—"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(úğ¢
+n
+java:S3776Ğ"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(øÜûøÿÿÿÿ
+W	java:S125Ş"<This block of commented-out lines of code should be removed.(•«¡ûÿÿÿÿ
+R	java:S125ı"<This block of commented-out lines of code should be removed.(è¸
+O
+java:S3878¢"8Remove this array creation and simply pass the elements.(ı§ˆ±
+O
+java:S3878¤"8Remove this array creation and simply pass the elements.(±¯¿ˆ
+Q
+java:S1128 ";Remove this unused import 'java.net.MalformedURLException'.(ªËŞˆ
+R
+java:S1144Ø"6Remove this unused private "loadClassInternal" method.(±»èÌúÿÿÿÿ
+G
+java:S1144Ù"1Remove this unused private "defineClass0" method.(«¯Ã
+W	java:S107±"<Method has 8 parameters, which is greater than 7 authorized.(‡¯„ùÿÿÿÿ
+>
+java:S1604ô"(Make this anonymous inner class a lambda(ÆŞÖ
+D
+java:S1604Ö"(Make this anonymous inner class a lambda(Á·í»ùÿÿÿÿ
+K
+java:S11916"5Use classes from the Java API instead of Sun classes.(²Óáë
+e
+java:S3824ø"NReplace this "Map.get()" and condition with a call to "Map.computeIfAbsent()".(ã¤º¨
+e
+java:S3824€"NReplace this "Map.get()" and condition with a call to "Map.computeIfAbsent()".(©°ü
