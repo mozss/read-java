@@ -13,6 +13,16 @@
       <sourceFolder url="file://$MODULE_DIR$/src/read_note/记录-问题列表" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/read_note/资料-本地文档" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/read_note/资料-网页链接" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint/issuestore/1/6" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint/issuestore/2/3" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint/issuestore/2/4" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint/issuestore/2/e" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint/issuestore/3/2" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint/issuestore/7/a" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint/issuestore/9/5" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint/issuestore/c/5" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint/issuestore/f/4" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea/sonarlint/issuestore/f/f" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
