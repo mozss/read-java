@@ -64,7 +64,6 @@ public final class ByteOrder {
      * allocate direct buffers with the same byte order as the hardware.
      * Native code libraries are often more efficient when such buffers are
      * used.  </p>
-     *
      * @return  The native byte order of the hardware upon which this Java
      *          virtual machine is running
      */

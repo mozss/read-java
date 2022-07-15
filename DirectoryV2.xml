@@ -15,10 +15,10 @@
     <tree path="/src/java/lang/ref" title="提供引用对象类,它们支持与gc收集器进行有限程度的交互。"/>
     <tree path="/src/java/math" title="提供用于执行任意精度整数算术 (BigInteger) 和任意精度十进制算术 (BigDecimal) 的类"/>
     <tree path="/src/java/net" title="提供用于实现网络应用程序的类."/>
-    <tree path="/src/java/nio/channels" title="定义通道, 表示与能够执行 I/O 操作的实体的连接, 例如文件和套接字; 定义选择器, 用于多路复用的非阻塞 I/O 操作"/>
-    <tree path="/src/java/nio/channels/spi" title="java.nio.channels包的服务提供者类(service-provider)"/>
+    <tree path="/src/java/nio/channels" title="包含于通道和选择器相关的类和接口. 定义通道, 表示与能够执行 I/O 操作的实体的连接, 例如文件和套接字; 定义选择器, 用于多路复用的非阻塞 I/O 操作"/>
+    <tree path="/src/java/nio/channels/spi" title="java.nio.channels包的服务提供者类(service-provider): 包含用来创建可拔插, 可选择的通道实现的类"/>
     <tree path="/src/java/nio/charset" title="定义字符集和解码器和编码器, 用于在字节和 Unicode 字符之间进行转换"/>
-    <tree path="/src/java/nio/file" title="为JVM定义接口和类以访问文件和文件属性和文件系统"/>
+    <tree path="/src/java/nio/file" title="为JVM定义接口和类以访问文件和文件属性和文件系统" icons="WelcomeCreateNewProjectTab"/>
     <tree path="/src/java/nio/file/attribute" title="提供对文件和文件系统属性的访问的接口和类"/>
     <tree path="/src/java/rmi" title="提供RMI"/>
     <tree path="/src/java/rmi/activation" title="提供对 RMI 对象激活的支持"/>
@@ -53,4 +53,135 @@
     <tree path="/src/sun" title="-_"/>
     <tree path="/src/com/sun" title="-_"/>
     <tree path="/src/java/beans" title="包含与开发 bean 相关的类——基于JavaBeans架构的组件"/>
+    <tree path="/src/java/nio/ByteOrder.java" title="是安全类型的列举, 它不能被直接实例化" extension="java"/>
+    <tree path="/src/java/nio/MappedByteBuffer.java"
+          title="ByteBuffer的特殊类型, 它的数据元素是硬盘文件的内容." extension="java"/>
+    <tree path="/src/java/nio/channels/ByteChannel.java"
+          title="是一个空聚合接口,把ReadableByteChannel和WritableByteChannel结合到一个接口, 但不定义任何新的方法." extension="java"/>
+    <tree path="/src/java/nio/channels/spi/AbstractInterruptibleChannel.java" title="提供实现子类的终端语义的方法" extension="java"/>
+    <tree path="/src/java/nio/channels/spi/AbstractSelectableChannel.java" title="是所有有资格参加就绪选择的通道实现的超类"
+          extension="java"/>
+    <tree path="/src/java/nio/channels/spi/AbstractSelectionKey.java" title="该类提供SelectionKey实现使用的通用例行程序"
+          extension="java"/>
+    <tree path="/src/java/nio/channels/spi/AbstractSelector.java" title="是所有Selector实现的超类" extension="java"/>
+    <tree path="/src/java/nio/channels/spi/SelectorProvider.java" title="该类是所有具体通道提供者类的超类" extension="java"/>
+    <tree path="/src/java/nio/channels/spi/AsynchronousChannelProvider.java" title="1.7新增的类: 异步通信服务的提供者类"
+          extension="java" icons="WelcomeCreateNewProjectTab"/>
+    <tree path="/src/java/nio/charset/spi" title="包含字符集服务器提供者接口机制使用的一个独立的类"/>
+    <tree path="/src/java/nio/charset/spi/CharsetProvider.java"
+          title="促进Charset实现到运行JVM中的安装, 具体体力的全部合格名称应该在类加载器的路径中名为META-INF/services/java.nio.charset.spi.CharsetProvider的文件中列出, 通过服务器提供者接口机制激活他们."
+          extension="java"/>
+    <tree path="/src/java/nio/charset/CharacterCodingException.java" title="表示遇到字符集编码错误" extension="java"/>
+    <tree path="/src/java/nio/charset/Charset.java" title="封装编码的字符集和相关的编码方案" extension="java"/>
+    <tree path="/src/java/nio/charset/CharsetDecoder.java" title="实例把字节的编码序列转换成字符序列, 此类的实例有状态." extension="java"/>
+    <tree path="/src/java/nio/charset/CharsetEncoder.java" title="实例把字符序列转化成字节的编码序列. 此类的实例有状态" extension="java"/>
+    <tree path="/src/java/nio/charset/CoderMalfunctionError.java"
+          title="从低层次的encodeLoop()或decodeLoop()方法中捕获意外的异常时抛出CoderMalfunctionError" extension="java"/>
+    <tree path="/src/java/nio/charset/CoderResult.java" title="表示编码运行的结果" extension="java"/>
+    <tree path="/src/java/nio/charset/CodingErrorAction.java"
+          title="是安全类型列举, 命名的实例被导入CharsetDecoder和CharsetEncoder对象中, 表示遇到编码错误时应该采取哪种行动" extension="java"/>
+    <tree path="/src/java/nio/charset/IllegalCharsetNameException.java"
+          title="Charset名称与提供的字符集命名规范不兼容时候抛出IllegalCharsetNameException(未检查): 字符集必须ASCII字母,数字,连词符,冒号,下划线,句点, 首字母必须是字母或阿拉伯数字"
+          extension="java"/>
+    <tree path="/src/java/nio/charset/MalformedInputException.java" title="编译运行期间探测都有缺陷的输入" extension="java"/>
+    <tree path="/src/java/nio/charset/UnmappableCharacterException.java" title="表示编译器或解码器不能从另外的有效输入序列中映射一个或多个字符"
+          extension="java"/>
+    <tree path="/src/java/nio/charset/UnsupportedCharsetException.java" title="当JVM环境不支持必要Charset时抛出" extension="java"/>
+    <tree path="/src/java/nio/charset/StandardCharsets.java" icons="WelcomeCreateNewProjectTab" extension="java"/>
+    <tree path="/src/java/nio/CharBufferSpliterator.java" title="用于遍历和拆分 CharBuffer 中维护的元素的源的 Spliterator.OfInt"
+          extension="java"/>
+    <tree path="/src/java/nio/HeapByteBuffer.java" title="" extension="java"/>
+    <tree path="/src/java/nio/HeapByteBufferR.java"
+          title=""
+          extension="java"/>
+    <tree path="/src/java/nio/HeapCharBuffer.java" title="" extension="java"/>
+    <tree path="/src/java/nio/Buffer.java" title="所有其他缓冲类延伸出来的基类. 它包含所有缓冲器类型都适用的通用方法" extension="java"/>
+    <tree path="/src/java/nio/BufferOverflowException.java"
+          title="当一个简单相关put()试图用缓冲器的位置相当于它的极限的时, 或批量put()引起位置超过限度时抛出该异常" extension="java"/>
+    <tree path="/src/java/nio/BufferUnderflowException.java" title="当相对get操作达到源缓冲区的限制时引发未经检查的异常" extension="java"/>
+    <tree path="/src/java/nio/ByteBuffer.java" title="是所有缓冲器中最复杂也是最万能的类. 只有字节缓冲器可以在通道参与到IO操作, 发送与接收数据."
+          extension="java"/>
+    <tree path="/src/java/nio/CharBuffer.java" title="管理类型char的数据元素并实现CharSequence接口, 允许其参与到字符为导向的操作中, 例如正则表达式匹配"
+          extension="java"/>
+    <tree path="/src/java/nio/ReadOnlyBufferException.java" title="当有方法将更改缓冲器内容时, 例如put()或compact()抛出该异常, 在只读缓冲器上调用"
+          extension="java"/>
+    <tree path="/src/java/nio/ShortBuffer.java" title="管理类型为short的数据元素" extension="java"/>
+    <tree path="/src/java/nio/channels/AlreadyConnectedException.java"
+          title="当在已连接的SocketChannel对象上调用connect()时抛出该异常(未检查)" extension="java"/>
+    <tree path="/src/java/nio/channels/AsynchronousCloseException.java"
+          title="当线程被锁定在通道操作上时, 例如read()和write(), 抛出该异常, 是IOException的子类, 并通道被另一线程关闭" extension="java"/>
+    <tree path="/src/java/nio/channels/CancelledKeyException.java"
+          title="当视图使用已失效的SelectionKey对象时抛出CancelledKeyException(未检查)" extension="java"/>
+    <tree path="/src/java/nio/channels/Channel.java" title="是所有其他通道接口的超接口, 它定义所有具体的通道类的共同方法" extension="java"/>
+    <tree path="/src/java/nio/channels/Channels.java"
+          title="注意不是Channel接口. 该类是一个效用类, 是通道可以交互运行传统的字节与字符流. 工厂方法返回包装对象, 对应通道到流上, 反之亦然. 返回的通道对象可能不是可选的, 也不是中断的."
+          extension="java"/>
+    <tree path="/src/java/nio/channels/ClosedByInterruptException.java"
+          title="当线程在通道操作上被阻塞, 例如read()或write(), 以及被另一个线程中断时抛出该异常(IOException的子类), 与AsynchronousCloseException类似, 但它是当休眠线程直接被中断的结果."
+          extension="java"/>
+    <tree path="/src/java/nio/channels/ClosedChannelException.java"
+          title="当视图在已经关闭的通道上操作时抛出CloseChannelException(IOException的子类)" extension="java"/>
+    <tree path="/src/java/nio/channels/ClosedSelectorException.java"
+          title="当视图使用已经关闭的Selector时抛出ClosedSelectorException(未检查)" extension="java"/>
+    <tree path="/src/java/nio/channels/ConnectionPendingException.java"
+          title="当在非阻塞模式中, 因为并发连接正在进行中, 在SocketChannel对象上调用connect()时候抛出" extension="java"/>
+    <tree path="/src/java/nio/channels/DatagramChannel.java" title="分别提高来自和ByteBuffer对象的数据包的发送与接收" extension="java"/>
+    <tree path="/src/java/nio/channels/FileChannel.java"
+          title="提供了丰富的文件为导向的操作. 只有在RandomAccessFile, FileInputStream, 或FileOutputStream对象上调用getChannel()方法才能获得FileChannel对象"
+          extension="java"/>
+    <tree path="/src/java/nio/channels/FileLockInterruptionException.java" title="当阻塞的线程等待授权的文件锁被另一个线程中断时抛出"
+          extension="java"/>
+    <tree path="/src/java/nio/channels/GatheringByteChannel.java" title="定义了汇集数据写入到一个通道中的方法" extension="java"/>
+    <tree path="/src/java/nio/channels/IllegalSelectorException.java"
+          title="当视图来自不同SelectorProvider类的Selector注册SelectableChannel时抛出该异常(未检查)" extension="java"/>
+    <tree path="/src/java/nio/channels/WritableByteChannel.java" title="接口定义write()方法, 实现在来自ByteBuffer的通道上写入数据的操作"
+          extension="java"/>
+    <tree path="/src/java/nio/channels/SocketChannel.java" title="SocketChannel对象在字节缓冲器和网络连接之间转换数据" extension="java"/>
+    <tree path="/src/java/nio/channels/ServerSocketChannel.java" title="类侦听引入的套接连接并创建新的SOcketChannel实例"
+          extension="java"/>
+    <tree path="/src/java/nio/channels/Selector.java" title="是协调类, 执行已注册的SelectableChannel对象的就绪选择, 并管理相关的键和状态"
+          extension="java"/>
+    <tree path="/src/java/nio/channels/SelectionKey.java" title="通过Selector对象封装成SelectableChannel对象的注册"
+          extension="java"/>
+    <tree path="/src/java/nio/channels/SelectableChannel.java" title="是所有能够参加Selector对象控制的选择操作的通用超类" extension="java"/>
+    <tree path="/src/java/nio/channels/ScatteringByteChannel.java" title="接口定义执行来自通道的散射读取的方法" extension="java"/>
+    <tree path="/src/java/nio/channels/ReadableByteChannel.java" title="该接口定义read()方法, 实现了通道从ByteBuffer对象内的通道上读取数据的操作"
+          extension="java"/>
+    <tree path="/src/java/nio/channels/Pipe.java"
+          title="Pipe是包含一对可选择通道的聚合类. 这些通道交叉相连构成一个回送. SinkChannel对象是管道的写结尾; 无论写什么, 都是在SourceChannel对象上读取有效."
+          extension="java"/>
+    <tree path="/src/java/nio/channels/OverlappingFileLockException.java"
+          title="当视图获取已经被同一个JVM上锁的文件区域上的锁时, 或当另一个线程在等待给属于同一个文件的覆盖区域上锁时抛出OverlappingFileLockException(未检查)"
+          extension="java"/>
+    <tree path="/src/java/nio/channels/NotYetBoundException.java"
+          title="当在调用connect()之前或并发的连接成功完成之前, 试图使用IO的SocketChannel对象时抛出NotYetConnectedException(未检查)" extension="java"/>
+    <tree path="/src/java/nio/channels/AsynchronousByteChannel.java" icons="WelcomeCreateNewProjectTab"
+          extension="java"/>
+    <tree path="/src/java/nio/channels/AsynchronousChannel.java" icons="WelcomeCreateNewProjectTab" extension="java"/>
+    <tree path="/src/java/nio/channels/CompletionHandler.java" icons="WelcomeCreateNewProjectTab" extension="java"/>
+    <tree path="/src/java/nio/channels/NetworkChannel.java" icons="WelcomeCreateNewProjectTab" extension="java"/>
+    <tree path="/src/java/nio/channels/SeekableByteChannel.java" icons="WelcomeCreateNewProjectTab" extension="java"/>
+    <tree path="/src/java/nio/channels/AsynchronousChannelGroup.java" icons="WelcomeCreateNewProjectTab"
+          extension="java"/>
+    <tree path="/src/java/nio/channels/AsynchronousFileChannel.java" icons="WelcomeCreateNewProjectTab"
+          extension="java"/>
+    <tree path="/src/java/nio/channels/AsynchronousServerSocketChannel.java" icons="WelcomeCreateNewProjectTab"
+          extension="java"/>
+    <tree path="/src/java/nio/channels/AsynchronousSocketChannel.java" icons="WelcomeCreateNewProjectTabSelected"
+          extension="java"/>
+    <tree path="/src/java/nio/channels/MembershipKey.java" icons="WelcomeCreateNewProjectTabSelected" extension="java"/>
+    <tree path="/src/java/nio/channels/AcceptPendingException.java" icons="WelcomeCreateNewProjectTab"
+          extension="java"/>
+    <tree path="/src/java/nio/channels/AlreadyBoundException.java" icons="WelcomeCreateNewProjectTab" extension="java"/>
+    <tree path="/src/java/nio/channels/IllegalChannelGroupException.java" icons="WelcomeCreateNewProjectTab"
+          extension="java"/>
+    <tree path="/src/java/nio/channels/InterruptedByTimeoutException.java" icons="WelcomeCreateNewProjectTab"
+          extension="java"/>
+    <tree path="/src/java/nio/channels/ReadPendingException.java" icons="WelcomeCreateNewProjectTab" extension="java"/>
+    <tree path="/src/java/nio/channels/ShutdownChannelGroupException.java" icons="WelcomeCreateNewProjectTab"
+          extension="java"/>
+    <tree path="/src/java/nio/channels/WritePendingException.java" icons="WelcomeCreateNewProjectTab" extension="java"/>
+    <tree path="/src/java/nio/file/attribute/AclFileAttributeView.java"
+          extension="java"/>
+    <tree path="/src/java/nio/file/attribute/AttributeView.java" extension="java"/>
 </trees>
