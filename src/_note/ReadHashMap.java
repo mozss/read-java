@@ -1,4 +1,4 @@
-package read_note;
+package _note;
 
 import java.util.HashMap;
 
