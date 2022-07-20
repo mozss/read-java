@@ -6,21 +6,22 @@
      <tree path="/src/java/applet" title="-_"/>
      <tree path="/src/java/nio" title="!_定义buffers, 它是数据的容器, 并提供其他 NIO 包的概述."/>
      <tree path="/src/java/io" title="!_通过数据流、序列化和文件系统提供系统输入和输出"/>
-     <tree path="/src/java/time" title="!_日期、时间、瞬间和持续时间的主要 API"/>
+     <tree path="/src/java/time" title="!_日期、时间、瞬间和持续时间的主要 API"
+           icons="WelcomeCreateNewProjectTab"/>
      <tree path="/src/java/util" title="!_包含集合框架、遗留集合类、事件模型、日期和时间工具、国际化和其他实用程序类(字符串标记器、随机数生成器和位数组)"/>
      <tree path="/src/java" title="!"/>
      <tree path="/src/java/lang/instrument" title="提供检测Java程序(如:监控代理、覆盖分析器)所需的服务."/>
      <tree path="/src/java/lang/invoke" title="包含由Java核心类库和JVM提供的动态语言支持."/>
     <tree path="/src/java/lang/management" title="提供管理接口(用于对JVM和Java运行时中的其他组件进行监控和管理)."/>
     <tree path="/src/java/lang/ref" title="提供引用对象类,它们支持与gc收集器进行有限程度的交互。"/>
-    <tree path="/src/java/math" title="提供用于执行任意精度整数算术 (BigInteger) 和任意精度十进制算术 (BigDecimal) 的类"/>
+    <tree path="/src/java/math" title="提供用于执行任意精度整数算术 (BigInteger) 和任意精度十进制算术 (BigDecimal) 的类_注意区分java.lang.Math类"/>
     <tree path="/src/java/net" title="提供用于实现网络应用程序的类."/>
     <tree path="/src/java/nio/channels" title="包含于通道和选择器相关的类和接口. 定义通道, 表示与能够执行 I/O 操作的实体的连接, 例如文件和套接字; 定义选择器, 用于多路复用的非阻塞 I/O 操作"/>
     <tree path="/src/java/nio/channels/spi" title="java.nio.channels包的服务提供者类(service-provider): 包含用来创建可拔插, 可选择的通道实现的类"/>
     <tree path="/src/java/nio/charset" title="定义字符集和解码器和编码器, 用于在字节和 Unicode 字符之间进行转换"/>
     <tree path="/src/java/nio/file" title="为JVM定义接口和类以访问文件和文件属性和文件系统" icons="WelcomeCreateNewProjectTab"/>
     <tree path="/src/java/nio/file/attribute" title="提供对文件和文件系统属性的访问的接口和类"/>
-    <tree path="/src/java/rmi" title="提供RMI"/>
+    <tree path="/src/java/rmi" title="提供RMI(Remote Method Invocation)"/>
     <tree path="/src/java/rmi/activation" title="提供对 RMI 对象激活的支持"/>
     <tree path="/src/java/rmi/dgc" title="为 RMI 分布式垃圾收集 (DGC) 提供类和接口"/>
     <tree path="/src/java/rmi/registry" title="为 RMI 注册表提供一个类和两个接口"/>
@@ -37,15 +38,17 @@
     <tree path="/src/java/time/format" title="提供类来打印和解析日期和时间"/>
     <tree path="/src/java/time/temporal" title="使用字段和单位以及日期时间调整器访问日期和时间"/>
     <tree path="/src/java/time/zone" title="支持时区及其规则"/>
-    <tree path="/src/java/util/concurrent" title="实用程序类在并发编程中通常很有用"/>
+    <tree path="/src/java/util/concurrent" title="实用程序类在并发编程中通常很有用(Doug Lea，中文名为道格·利, juc包的作者)"/>
     <tree path="/src/java/util/concurrent/atomic" title="一个小的类工具包，支持对单个变量进行无锁线程安全编程"/>
     <tree path="/src/java/util/concurrent/locks" title="接口和类提供了用于锁定和等待与内置同步和监视器不同的条件的框架"/>
-    <tree path="/src/java/util/function" title="函数式接口为 lambda 表达式和方法引用提供目标类型"/>
+    <tree path="/src/java/util/function" title="jdk1.8新增. 函数式接口为 lambda 表达式和方法引用提供目标类型"
+          icons="WelcomeCreateNewProjectTab"/>
     <tree path="/src/java/util/jar" title="提供用于读取和写入 JAR (Java ARchive) 文件格式的类，该格式基于标准 ZIP 文件格式和可选的清单文件"/>
     <tree path="/src/java/util/logging" title="提供 Java平台的核心日志记录工具的类和接口"/>
     <tree path="/src/java/util/prefs" title="这个包允许应用程序存储和检索用户和系统偏好和配置数据"/>
     <tree path="/src/java/util/regex" title="用于将字符序列与正则表达式指定的模式匹配的类"/>
-    <tree path="/src/java/util/stream" title="支持对元素流进行函数式操作的类，例如集合上的 map-reduce 转换"/>
+    <tree path="/src/java/util/stream" title="jdk1.8新增. 支持对元素流进行函数式操作的类，例如集合上的 map-reduce 转换"
+          icons="WelcomeCreateNewProjectTab"/>
     <tree path="/src/java/util/zip" title="提供用于读取和写入标准 ZIP 和 GZIP 文件格式的类"/>
     <tree path="/src/javax" title="-_"/>
     <tree path="/src/launcher" title="-_"/>
@@ -184,4 +187,68 @@
     <tree path="/src/java/nio/file/attribute/AclFileAttributeView.java"
           extension="java"/>
     <tree path="/src/java/nio/file/attribute/AttributeView.java" extension="java"/>
+   <tree path="/src/java/util/spi/ResourceBundleControlProvider.java"
+         title="jdk1.8添加" extension="java"/>
+   <tree path="/src/java/util/spi/CalendarDataProvider.java" title="jdk1.8添加"
+         extension="java"/>
+   <tree path="/src/java/util/spi/CalendarNameProvider.java" title="jdk1.8添加"
+         extension="java"/>
+   <tree path="/src/java/util/stream/BaseStream.java"
+         title="流的基本接口，它是支持顺序和并行聚合操作的元素序列。" extension="java"/>
+   <tree path="/src/java/util/stream/Collector.java"
+         title="一种可变归约操作，将输入元素累积到可变结果容器中，在处理完所有输入元素后，可选择将累积结果转换为最终表示。"
+         extension="java"/>
+   <tree path="/src/java/util/stream/DoubleStream.java"
+         title="支持顺序和并行聚合操作的原始双值元素序列。" extension="java"/>
+   <tree path="/src/java/util/stream/IntStream.java"
+         title="支持顺序和并行聚合操作的原始 int 值元素序列" extension="java"/>
+   <tree path="/src/java/util/stream/LongStream.java"
+         title="支持顺序和并行聚合操作的原始long元素序列" extension="java"/>
+   <tree path="/src/java/util/stream/Node.java"
+         title="一个不可变的容器，用于描述某种类型的元素的有序序列T" extension="java"/>
+   <tree path="/src/java/util/stream/Sink.java"
+         title="用于通过流管道的各个阶段传递值，具有管理大小信息、控制流等的附加方法" extension="java"/>
+   <tree path="/src/java/util/stream/Stream.java" title="支持顺序和并行聚合操作的元素序列"
+         extension="java"/>
+   <tree path="/src/java/util/stream/TerminalOp.java"
+         title="流管道中的一种操作，它将流作为输入并产生结果或副作用" extension="java"/>
+   <tree path="/src/java/util/stream/TerminalSink.java"
+         title="Sink在接受元素时累积状态，并允许在计算完成后检索结果" extension="java"/>
+   <tree path="/src/java/util/regex/Matcher.java"
+         title="通过解释Pattern对字符序列执行匹配操作的引擎" extension="java"/>
+   <tree path="/src/java/util/regex/Pattern.java" title="正则表达式的编译表示"
+         extension="java"/>
+   <tree path="/src/java/util/regex/PatternSyntaxException.java"
+         title="以指示正则表达式模式中的语法错误" extension="java"/>
+   <tree path="/src/java/util/concurrent/CompletionException.java"
+         title="jdk1.8新增" extension="java"/>
+   <tree path="/src/java/util/concurrent/CompletableFuture.java"
+         title="jdk1.8新增" extension="java"/>
+   <tree path="/src/java/util/concurrent/CountedCompleter.java" title="jdk1.8新增"
+         extension="java"/>
+   <tree path="/src/java/util/concurrent/CompletionStage.java" title="jdk1.8新增"
+         extension="java"/>
+   <tree path="/src/java/util/concurrent/locks/StampedLock.java"
+         title="jdk1.8新增" extension="java" icons="WelcomeCreateNewProjectTab"/>
+   <tree path="/src/java/util/concurrent/atomic/DoubleAccumulator.java"
+         title="jdk1.8新增" extension="java" icons="WelcomeCreateNewProjectTab"/>
+   <tree path="/src/java/util/concurrent/atomic/DoubleAdder.java"
+         title="jdk1.8新增" extension="java" icons="WelcomeCreateNewProjectTab"/>
+   <tree path="/src/java/util/concurrent/atomic/LongAccumulator.java"
+         title="jdk1.8新增" extension="java" icons="WelcomeCreateNewProjectTab"/>
+   <tree path="/src/java/util/concurrent/atomic/LongAdder.java" title="jdk1.8新增"
+         extension="java" icons="WelcomeCreateNewProjectTab"/>
+   <tree path="/src/java/lang/ref/SoftReference.java"
+         title="软引用对象，由垃圾收集器根据内存需求自行清除。软引用最常用于实现内存敏感缓存." extension="java"/>
+   <tree path="/src/java/lang/ref/WeakReference.java"
+         title="弱引用对象，不会阻止它们的引用对象被最终化、最终化，然后被回收。弱引用最常用于实现规范化映射。"
+         extension="java"/>
+   <tree path="/src/java/lang/ref/ReferenceQueue.java"
+         title="引用队列，在检测到适当的可达性更改后，垃圾收集器会将已注册的参考对象附加到这些队列中" extension="java"/>
+   <tree path="/src/java/lang/ref/PhantomReference.java"
+         title="虚引用对象，在收集器确定它们的引用对象可能会被回收后排队。" extension="java"/>
+   <tree path="/src/java/lang/ref/FinalReference.java" title="最终引用，用于实现终结"
+         extension="java"/>
+   <tree path="/src/java/lang/ref/Reference.java" title="引用对象的抽象基类。"
+         extension="java"/>
 </trees>
