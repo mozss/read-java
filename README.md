@@ -1,29 +1,14 @@
 # Read-JDK
 
-### UMl
+## 类图
 
-[io包](src/read_note/img/uml-io包.png)
-
-[util包](src/read_note/img/uml-util包.png)
-
-### 文档
-
-### 笔记
-
-[io包](./src/read_note/read/mind-know-io包.mmd)
-
-[nio包](./src/read_note/read/mind-know-nio包.mmd)
-
-[util包](./src/read_note/read/mind-know-util包-集合类.mmd)
-
-### 流程
-
-[io包](./src/read_note/read/draw-know-io包.png)
-
-[nio包](./src/read_note/read/draw-know-nio包.png)
-
-[util包](./src/read_note/read/draw-know-util包-集合类.png)
-
-### 其他
-
-### 联系
+## java.lang
+4个注解类:<br>
+[@Deprecated](src/java/lang/Deprecated.java)<br>
+[@FunctionalInterface](src/java/lang/FunctionalInterface.java)<br>
+[@Override](src/java/lang/Override.java)<br>
+[@SafeVarargs](src/java/lang/SafeVarargs.java)<br>
+[@SuppressWarnings](src/java/lang/SuppressWarnings.java)<br>
+### String相关类
+[String.java](src/java/lang/String.java)<br>
+[CharSequence.java](src/java/lang/CharSequence.java)<br>
