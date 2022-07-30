@@ -1,95 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="JavaSE-1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="ProjectType">
     <option name="id" value="jpab" />
-  </component>
-  <component name="UMLDiagramComponent">
-    <diagram name="nio">
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.Bits" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.Buffer" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.ByteOrder" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.IntBuffer" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.ByteBuffer" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.CharBuffer" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.LongBuffer" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.FloatBuffer" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.ShortBuffer" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.DoubleBuffer" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.HeapIntBuffer" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.HeapByteBuffer" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.HeapCharBuffer" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.HeapIntBufferR" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.HeapLongBuffer" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.HeapByteBufferR" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.HeapCharBufferR" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.HeapFloatBuffer" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.HeapLongBufferR" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.HeapShortBuffer" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.DirectByteBuffer" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.DirectIntBufferS" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.DirectIntBufferU" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.HeapDoubleBuffer" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.HeapFloatBufferR" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.HeapShortBufferR" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.MappedByteBuffer" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.StringCharBuffer" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.DirectByteBufferR" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.DirectCharBufferS" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.DirectCharBufferU" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.DirectIntBufferRS" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.DirectIntBufferRU" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.DirectLongBufferS" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.DirectLongBufferU" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.HeapDoubleBufferR" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.DirectCharBufferRS" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.DirectCharBufferRU" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.DirectFloatBufferS" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.DirectFloatBufferU" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.DirectLongBufferRS" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.DirectLongBufferRU" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.DirectShortBufferS" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.DirectShortBufferU" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.DirectDoubleBufferS" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.DirectDoubleBufferU" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.DirectFloatBufferRS" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.DirectFloatBufferRU" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.DirectShortBufferRS" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.DirectShortBufferRU" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.DirectDoubleBufferRS" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.DirectDoubleBufferRU" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.InvalidMarkException" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.CharBufferSpliterator" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.ByteBufferAsIntBufferB" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.ByteBufferAsIntBufferL" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.BufferOverflowException" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.ByteBufferAsCharBufferB" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.ByteBufferAsCharBufferL" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.ByteBufferAsIntBufferRB" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.ByteBufferAsIntBufferRL" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.ByteBufferAsLongBufferB" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.ByteBufferAsLongBufferL" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.ReadOnlyBufferException" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.BufferUnderflowException" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.ByteBufferAsCharBufferRB" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.ByteBufferAsCharBufferRL" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.ByteBufferAsFloatBufferB" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.ByteBufferAsFloatBufferL" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.ByteBufferAsLongBufferRB" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.ByteBufferAsLongBufferRL" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.ByteBufferAsShortBufferB" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.ByteBufferAsShortBufferL" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.ByteBufferAsDoubleBufferB" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.ByteBufferAsDoubleBufferL" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.ByteBufferAsFloatBufferRB" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.ByteBufferAsFloatBufferRL" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.ByteBufferAsShortBufferRB" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.ByteBufferAsShortBufferRL" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.ByteBufferAsDoubleBufferRB" />
-      <command command-class="de.frag.umlplugin.uml.command.AddClassCommand" psi-class="java.nio.ByteBufferAsDoubleBufferRL" />
-      <compartment-visibility />
-    </diagram>
   </component>
 </project>

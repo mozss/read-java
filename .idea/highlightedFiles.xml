@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectTreeColorHighlighter">
     <files>
-      <node color="9" path="$PROJECT_DIR$/src/java/util/function" />
-      <node color="9" path="$PROJECT_DIR$/src/java/util/regex" />
-      <node color="9" path="$PROJECT_DIR$/src/java/util/stream" />
+      <node color="9" path="$PROJECT_DIR$/src/java/lang/Class.java" />
+      <node color="9" path="$PROJECT_DIR$/src/java/lang/Object.java" />
+      <node color="9" path="$PROJECT_DIR$/src/java/lang/String.java" />
+      <node color="9" path="$PROJECT_DIR$/src/java/lang/System.java" />
+      <node color="9" path="$PROJECT_DIR$/src/java/lang/Thread.java" />
     </files>
     <colors>
       <color id="1" value="#4f060d" name="Color 1" enabled="true" />

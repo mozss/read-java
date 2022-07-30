@@ -9,7 +9,7 @@
      <tree path="/src/java/time" title="!_日期、时间、瞬间和持续时间的主要 API"
            icons="WelcomeCreateNewProjectTab"/>
      <tree path="/src/java/util" title="!_包含集合框架、遗留集合类、事件模型、日期和时间工具、国际化和其他实用程序类(字符串标记器、随机数生成器和位数组)"/>
-     <tree path="/src/java" title="!"/>
+     <tree path="/src/java" title="!" icons="XmlBrowsersCanary"/>
      <tree path="/src/java/lang/instrument" title="提供检测Java程序(如:监控代理、覆盖分析器)所需的服务."/>
      <tree path="/src/java/lang/invoke" title="包含由Java核心类库和JVM提供的动态语言支持."/>
     <tree path="/src/java/lang/management" title="提供管理接口(用于对JVM和Java运行时中的其他组件进行监控和管理)."/>
@@ -251,4 +251,26 @@
          extension="java"/>
    <tree path="/src/java/lang/ref/Reference.java" title="引用对象的抽象基类。"
          extension="java"/>
+    <tree path="/src/java/lang/reflect/Executable.java" title="jdk1.8新增"
+          extension="java"/>
+    <tree path="/src/java/lang/reflect/Parameter.java" title="jdk1.8新增"
+          extension="java"/>
+    <tree path="/src/java/lang/reflect/MalformedParametersException.java"
+          title="jdk1.8新增" extension="java"/>
+    <tree path="/src/java/lang/reflect/AnnotatedArrayType.java" title="jdk1.8新增"
+          extension="java"/>
+    <tree path="/src/java/lang/reflect/AnnotatedParameterizedType.java"
+          title="jdk1.8新增" extension="java"/>
+    <tree path="/src/java/lang/reflect/AnnotatedType.java" title="jdk1.8新增"
+          extension="java"/>
+    <tree path="/src/java/lang/reflect/AnnotatedTypeVariable.java"
+          title="jdk1.8新增" extension="java"/>
+    <tree path="/src/java/lang/reflect/AnnotatedWildcardType.java"
+          title="jdk1.8新增" extension="java"/>
+    <tree path="/src/java/lang/ThreadLocal.java"
+          title="为了减少连接带来的开销" extension="java"/>
+    <tree path="/src/java/lang/ThreadGroup.java"
+          title="线程池为了统一管理多个线程的属性, 比如设置守护线程, 线程的优先级" extension="java"/>
+    <tree path="/src/java/lang/Runnable.java"
+          title="Runnable接口应该由其实例打算由线程执行的任何类实现" extension="java"/>
 </trees>
