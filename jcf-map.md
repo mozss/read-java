@@ -24,13 +24,13 @@
 
 ### 4个普通的HashMap集合
 
-#### HashMap集合
+#### HashMap
 
-#### LinkedHashMap集合
+#### LinkedHashMap
 
-#### WeakHashMap集合
+#### WeakHashMap
 
-#### IdentityHashMap集合
+#### IdentityHashMap
 
 ### ConCurrentSkipListMap和ConcurrentHashMap
 
@@ -39,13 +39,13 @@
 
 ### 其他几种集合
 
-#### TreeMap集合
+#### TreeMap
 
 #### Hashtable与Properties
 
-#### EnumMap集合
+#### EnumMap
 
-#### 其他:java.util.jar包下的Attributes集合
+#### 其他:java.util.jar包下的Attributes
 
 
 
