@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0658de6-ac68-44d6-b0d0-0fbf21631808" name="变更" comment="v4 初始化">
-      <change afterPath="$PROJECT_DIR$/.jcf_images/2ead3d5b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jcf_images/96cd701c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jcf-list.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jcf.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ju.function.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DirectoryV2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DirectoryV2.xml" afterDir="false" />
+    <list default="true" id="d0658de6-ac68-44d6-b0d0-0fbf21631808" name="变更" comment="阅读List相关集合">
+      <change afterPath="$PROJECT_DIR$/io.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nio.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,9 +132,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\data-mozss\code\workspace-project\it\read\read-java" />
       <recent name="D:\data-mozss\code\workspace-project\it\read\read-java\.note\笔记-阅读指南\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\data-mozss\code\workspace-project\it\read\read-java\.res" />
       <recent name="D:\data-mozss\code\workspace-project\it\read\read-java" />
       <recent name="D:\data-mozss\code\workspace-project\it\read\read-java\.note\.res" />
       <recent name="D:\data-mozss\code\workspace-project\it\read\read-java\.note" />
@@ -214,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659203590616</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="阅读List相关集合">
+      <created>1659237976768</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659237976768</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +240,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v4 初始化" />
     <MESSAGE value="阅读string" />
-    <option name="LAST_COMMIT_MESSAGE" value="阅读string" />
+    <MESSAGE value="阅读List相关集合" />
+    <option name="LAST_COMMIT_MESSAGE" value="阅读List相关集合" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

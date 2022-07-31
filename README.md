@@ -1,14 +1,17 @@
-# Read-JDK
+# Read-Java(1.8)
 
-## 类图
 
+## java.io
+[IO框架](io.md)
+## java.nio
+[NIO框架](nio.md)
 ## java.lang
-4个注解类:<br>
-[@Deprecated](src/java/lang/Deprecated.java)<br>
-[@FunctionalInterface](src/java/lang/FunctionalInterface.java)<br>
-[@Override](src/java/lang/Override.java)<br>
-[@SafeVarargs](src/java/lang/SafeVarargs.java)<br>
-[@SuppressWarnings](src/java/lang/SuppressWarnings.java)<br>
-### String相关类
-[String.java](src/java/lang/String.java)<br>
-[CharSequence.java](src/java/lang/CharSequence.java)<br>
+
+## java.util
+
+### JCF相关
+[Java集合框架](jcf.md)
+[List集合](jcf-list.md)
+
+### java.util.function函数式接口
+[Function包](ju.function.md)
