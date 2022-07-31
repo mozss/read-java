@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a681f63-cc1e-4c77-a4e3-216a8d2ccff0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jcf.md" beforeDir="false" afterPath="$PROJECT_DIR$/jcf.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1659275182714</updated>
-      <workItem from="1659275186839" duration="1381000" />
+      <workItem from="1659275186839" duration="1734000" />
     </task>
     <task id="LOCAL-00001" summary="push something">
       <created>1659275280365</created>
@@ -68,7 +67,21 @@
       <option name="project" value="LOCAL" />
       <updated>1659276262879</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="调试图片加载不出来问题">
+      <created>1659276726424</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1659276726424</updated>
+    </task>
+    <task id="LOCAL-00004" summary="调试图片加载不出来问题">
+      <created>1659276864149</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1659276864149</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,7 +100,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="push something" />
-    <option name="LAST_COMMIT_MESSAGE" value="push something" />
+    <MESSAGE value="调试图片加载不出来问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="调试图片加载不出来问题" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
