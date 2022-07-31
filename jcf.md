@@ -9,7 +9,7 @@ Collection的继承关系:<br>
 - [java.lang.Iterable](src/java/lang/Iterable.java)提供了两个方法forEach(Consumer<? super T> action)方法和jdk1.8加入的spliterator()方法<br>
 其中forEach(Consumer<? super T> action)的Consumer涉及到[java.util.functin](ju.function.md)(jdk1.8提供的函数式接口)
 - [java.util.Spliterator接口](src/java/util/Spliterator.java)为jdk1.8加入的可分割迭代器, 为了并行遍历数据源中的元素而设计的迭代器. 相比早期Iterator, 区别在于一个顺序遍历, 一个并行遍历.
-- 
+
 
 #### Collection<E>接口而不是Collections类
 [Collections类](src/java/util/Collections.java)是一个工具类, 与Collection<E>接口命名相似
