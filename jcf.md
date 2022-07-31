@@ -2,6 +2,8 @@
 ### 三个顶级接口: Collection<E>, Iterable<T>, Spliterator<T>
 
 ![Collection的继承关系](.jcf_images/2ead3d5b.png)
+Collection的继承关系:
+<img src=".jcf_images/2ead3d5b.png"/>
 
 - [java.util.Collection接口](src/java/util/Collection.java)以及下一级的接口或抽象类起到聚合作用(主要针对Queue, Set, List), 并非所有的集合类都实现了Collection接口
 - [java.lang.Iterable](src/java/lang/Iterable.java)提供了两个方法forEach(Consumer<? super T> action)方法和jdk1.8加入的spliterator()方法<br>
