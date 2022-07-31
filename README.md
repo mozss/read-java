@@ -14,4 +14,5 @@
 [List集合](jcf-list.md)
 
 ### java.util.function函数式接口
-[Function包](ju.function.md)
+[function包](ju.function.md)
+[stream包](ju.stream.md)
