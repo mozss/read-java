@@ -19,3 +19,10 @@
 ### java.util.function函数式接口
 [function包](ju.function.md)
 [stream包](ju.stream.md)
+
+
+
+![](.README_images/a0b55428.png)
+
+![](.README_images/1cfd0eb7.png)
+
