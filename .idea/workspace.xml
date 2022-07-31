@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0658de6-ac68-44d6-b0d0-0fbf21631808" name="变更" comment="editor readme.md">
-      <change afterPath="$PROJECT_DIR$/.jcf-map_images/476b837c.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jcf-map_images/94beb45b.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/juf-map.md" beforeDir="false" afterPath="$PROJECT_DIR$/jcf-map.md" afterDir="false" />
-    </list>
+    <list default="true" id="d0658de6-ac68-44d6-b0d0-0fbf21631808" name="变更" comment="editor juc-map集合" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +23,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -39,6 +34,7 @@
     </file-type-list>
   </component>
   <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
     <option name="recentBranches">
       <RecentBranches>
         <option name="branchesForRepo">
@@ -200,6 +196,7 @@
       <workItem from="1658967043267" duration="1662000" />
       <workItem from="1659094017507" duration="1669000" />
       <workItem from="1659197540401" duration="3180000" />
+      <workItem from="1659245640614" duration="436000" />
     </task>
     <task id="LOCAL-00001" summary="v4 初始化">
       <created>1659197589831</created>
@@ -250,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659241856118</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="editor juc-map集合">
+      <created>1659245843660</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659245843661</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,7 +276,8 @@
     <MESSAGE value="阅读string" />
     <MESSAGE value="阅读List相关集合" />
     <MESSAGE value="editor readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="editor readme.md" />
+    <MESSAGE value="editor juc-map集合" />
+    <option name="LAST_COMMIT_MESSAGE" value="editor juc-map集合" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
