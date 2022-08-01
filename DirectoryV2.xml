@@ -2,7 +2,7 @@
  <trees>
      <tree path="/src/read_note" title=""/>
      <tree path="/src/java/awt" title="-_"/>
-     <tree path="/src/java/lang" title="!_提供对 Java 编程语言的设计至关重要的类"/>
+     <tree path="/src/java/lang" title="!_提供对 Java 编程语言的设计至关重要的类" icons="XmlBrowsersCanary"/>
      <tree path="/src/java/applet" title="-_"/>
      <tree path="/src/java/nio" title="!_定义buffers, 它是数据的容器, 并提供其他 NIO 包的概述." icons="XmlBrowsersCanary"/>
      <tree path="/src/java/io" title="!_通过数据流、序列化和文件系统提供系统输入和输出" icons="XmlBrowsersCanary"/>

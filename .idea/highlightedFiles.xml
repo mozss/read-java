@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectTreeColorHighlighter">
-    <files>
-      <node color="9" path="$PROJECT_DIR$/src/java/lang/Class.java" />
-      <node color="9" path="$PROJECT_DIR$/src/java/lang/Object.java" />
-      <node color="9" path="$PROJECT_DIR$/src/java/lang/String.java" />
-      <node color="9" path="$PROJECT_DIR$/src/java/lang/System.java" />
-      <node color="9" path="$PROJECT_DIR$/src/java/lang/Thread.java" />
-    </files>
+    <files />
     <colors>
       <color id="1" value="#4f060d" name="Color 1" enabled="true" />
       <color id="2" value="#44220e" name="Color 2" enabled="true" />
@@ -17,7 +11,6 @@
       <color id="6" value="#171a34" name="Color 6" enabled="true" />
       <color id="7" value="#311333" name="Color 7" enabled="true" />
       <color id="8" value="#1e1e1e" name="Color 8" enabled="true" />
-      <color id="9" value="#294252" name="Color 9" enabled="true" />
     </colors>
     <option name="marksForCollapsedHighlights" value="Dots" />
   </component>
