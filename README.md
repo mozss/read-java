@@ -1,23 +1,31 @@
-# Read-Java(1.8)
+# read-java-1.8
 
 
 ## java.io
-[IO框架](io.md)
+[IO框架](.note/io.md)
 
 ## java.nio
-[NIO框架](nio.md)
+[NIO框架](.note/nio.md)
 
 
 ## java.lang
 
-## java.util包
-### java集合框架JCF
-- [JCF](jcf.md)
-- [List集合](jcf-collection-list.md)
-- [Map集合](jcf-map.md)
-### java.util.function函数式接口
-[function包](ju.function.md)
-[stream包](ju.stream.md)
+
+## java.util
+
+### java.util-JCF
+- [JCF框架](.note/jcf.md)
+  - [List集合](.note/jcf-collection-list.md)
+  - [Map集合](.note/jcf-map.md)
+
+### java.util.concurrent
+
+[Concurrent包](.note/ju.concurrent.md)
+
+
+### java.util.function
+- [function包](.note/ju.function.md)
+- [stream包](.note/ju.stream.md)
 
 
 
