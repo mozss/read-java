@@ -14,7 +14,7 @@
 ## java.util包
 ### java集合框架JCF
 - [JCF](jcf.md)
-- [List集合](jcf-list.md)
+- [List集合](jcf-collection-list.md)
 - [Map集合](jcf-map.md)
 ### java.util.function函数式接口
 [function包](ju.function.md)
