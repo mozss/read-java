@@ -12,6 +12,17 @@
 #### Collection<E>接口而不是Collections类
 [Collections类](src/java/util/Collections.java)是一个工具类, 与Collection<E>接口命名相似
 
+补充: 可以将不安全的集合通过Collections类中的synchronized...方法封装成线程安全的集合
+![Collections类中的同步方法](.jcf_images/808414f9.png)
+```java
+TreeMap<String, Object> currentMap = new TreeMap<>();
+//封装成线程安全的Map集合
+Map<String, Object> cMap = Collections.synchronizedMap(currentMap);
+
+```
+由于Synchronized...方法内部使用的Object Monitor机制的悲观锁, 是一种粗粒度, 因此优先选择JUC中的相关数据结构.
+
+
 #### 两个迭代器的对比: Iterator - Spliterator
 ![Iterator与Spliterator对比](.jcf_images/96cd701c.png)
 
