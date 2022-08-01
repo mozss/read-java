@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a681f63-cc1e-4c77-a4e3-216a8d2ccff0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.jcf-map_images/1bed21e7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jcf-map_images/2781128b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jcf-map_images/36975b97.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jcf-map_images/74f0f1cb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jcf-map_images/97ac073b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jcf-map_images/a3346eca.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jcf-map_images/d927e0a9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.jcf-set_images/a361be6d.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jcf-map-红黑树.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jcf-queue.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jcf-set.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jcf-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/jcf-list.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jcf-map.md" beforeDir="false" afterPath="$PROJECT_DIR$/jcf-map.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jcf.md" beforeDir="false" afterPath="$PROJECT_DIR$/jcf.md" afterDir="false" />
-    </list>
+    <list default="true" id="3a681f63-cc1e-4c77-a4e3-216a8d2ccff0" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +23,41 @@
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/java/lang/ref/ReferenceQueue.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/ref/SoftReference.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/ref/WeakReference.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/_note/ReadHashMap.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/Appendable.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/AutoCloseable.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/annotation/Annotation.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/annotation/ElementType.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/NoSuchMethodError.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/invoke/Stable.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/invoke/InvokeDynamic.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/invoke/InnerClassLambdaMetafactory.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/invoke/InfoFromMemberName.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/annotation/Repeatable.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/_note/ReadInt.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/annotation/Native.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/invoke/MethodHandleInfo.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/invoke/DelegatingMethodHandle.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/invoke/CallSite.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/ClassLoader.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/invoke/BoundMethodHandle.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/invoke/AbstractValidatingLambdaMetafactory.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/invoke/DirectMethodHandle.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/invoke/ConstantCallSite.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/invoke/MethodHandleImpl.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/invoke/MethodHandle.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/ref/Finalizer.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/ref/Reference.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/ref/FinalReference.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/ref/PhantomReference.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/invoke/InjectedProfile.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/invoke/ForceInline.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/java/lang/invoke/DontInline.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
