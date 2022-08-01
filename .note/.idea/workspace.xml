@@ -1,21 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a681f63-cc1e-4c77-a4e3-216a8d2ccff0" name="Changes" comment="解决图片加载问题">
-      <change afterPath="$PROJECT_DIR$/.jcf_images/808414f9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.ju.concurrent-locks包_images/c74c1574.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.read-java_images/45aefe3f.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jcf-ju.concurrent.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ju.concurrent-atomic包-原子操作(无锁).md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ju.concurrent-jcf-集合.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ju.concurrent-locks包.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ju.concurrent-信号-相关工作类.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ju.concurrent-线程数据控制-相关工具类.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ju.concurrent-线程管理执行-相关工具类.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ju.concurrent.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/read-java.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jcf.md" beforeDir="false" afterPath="$PROJECT_DIR$/jcf.md" afterDir="false" />
+    <list default="true" id="3a681f63-cc1e-4c77-a4e3-216a8d2ccff0" name="Changes" comment="添加juc相关内容">
+      <change beforePath="$PROJECT_DIR$/.idea/active-tab-highlighter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.note/.idea/active-tab-highlighter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.note/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/highlightedFiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.note/.idea/highlightedFiles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.note/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.note/.idea/markdown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.note/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.note/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/read-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.note/.idea/read-java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.note/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.note/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jcf-map_images/109233ab.png" beforeDir="false" afterPath="$PROJECT_DIR$/.note/.jcf-map_images/109233ab.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jcf-map_images/1bed21e7.png" beforeDir="false" afterPath="$PROJECT_DIR$/.note/.jcf-map_images/1bed21e7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jcf-map_images/2781128b.png" beforeDir="false" afterPath="$PROJECT_DIR$/.note/.jcf-map_images/2781128b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jcf-map_images/36975b97.png" beforeDir="false" afterPath="$PROJECT_DIR$/.note/.jcf-map_images/36975b97.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jcf-map_images/476b837c.png" beforeDir="false" afterPath="$PROJECT_DIR$/.note/.jcf-map_images/476b837c.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jcf-map_images/74f0f1cb.png" beforeDir="false" afterPath="$PROJECT_DIR$/.note/.jcf-map_images/74f0f1cb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jcf-map_images/87612b34.png" beforeDir="false" afterPath="$PROJECT_DIR$/.note/.jcf-map_images/87612b34.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jcf-map_images/94beb45b.png" beforeDir="false" afterPath="$PROJECT_DIR$/.note/.jcf-map_images/94beb45b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jcf-map_images/97ac073b.png" beforeDir="false" afterPath="$PROJECT_DIR$/.note/.jcf-map_images/97ac073b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jcf-map_images/a3346eca.png" beforeDir="false" afterPath="$PROJECT_DIR$/.note/.jcf-map_images/a3346eca.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jcf-map_images/d927e0a9.png" beforeDir="false" afterPath="$PROJECT_DIR$/.note/.jcf-map_images/d927e0a9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jcf-set_images/a361be6d.png" beforeDir="false" afterPath="$PROJECT_DIR$/.note/.jcf-set_images/a361be6d.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jcf_images/2ead3d5b.png" beforeDir="false" afterPath="$PROJECT_DIR$/.note/.jcf_images/2ead3d5b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jcf_images/808414f9.png" beforeDir="false" afterPath="$PROJECT_DIR$/.note/.jcf_images/808414f9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.jcf_images/96cd701c.png" beforeDir="false" afterPath="$PROJECT_DIR$/.note/.jcf_images/96cd701c.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ju.concurrent-locks包_images/c74c1574.png" beforeDir="false" afterPath="$PROJECT_DIR$/.note/.ju.concurrent-locks包_images/c74c1574.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.read-java_images/45aefe3f.png" beforeDir="false" afterPath="$PROJECT_DIR$/.note/.read-java_images/45aefe3f.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/io.md" beforeDir="false" afterPath="$PROJECT_DIR$/.note/io.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jcf-collection-list.md" beforeDir="false" afterPath="$PROJECT_DIR$/.note/jcf-collection-list.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jcf-collection-queue.md" beforeDir="false" afterPath="$PROJECT_DIR$/.note/jcf-collection-queue.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jcf-collection-set.md" beforeDir="false" afterPath="$PROJECT_DIR$/.note/jcf-collection-set.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jcf-future.md" beforeDir="false" afterPath="$PROJECT_DIR$/.note/jcf-future.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jcf-ju.concurrent.md" beforeDir="false" afterPath="$PROJECT_DIR$/.note/jcf-ju.concurrent.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jcf-map-红黑树.md" beforeDir="false" afterPath="$PROJECT_DIR$/.note/jcf-map-红黑树.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jcf-map.md" beforeDir="false" afterPath="$PROJECT_DIR$/.note/jcf-map.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jcf.md" beforeDir="false" afterPath="$PROJECT_DIR$/.note/jcf.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ju.concurrent-atomic包-原子操作(无锁).md" beforeDir="false" afterPath="$PROJECT_DIR$/.note/ju.concurrent-atomic包-原子操作(无锁).md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ju.concurrent-jcf-集合.md" beforeDir="false" afterPath="$PROJECT_DIR$/.note/ju.concurrent-jcf-集合.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ju.concurrent-locks包.md" beforeDir="false" afterPath="$PROJECT_DIR$/.note/ju.concurrent-locks包.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ju.concurrent-信号-相关工作类.md" beforeDir="false" afterPath="$PROJECT_DIR$/.note/ju.concurrent-信号-相关工作类.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ju.concurrent-线程数据控制-相关工具类.md" beforeDir="false" afterPath="$PROJECT_DIR$/.note/ju.concurrent-线程数据控制-相关工具类.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ju.concurrent-线程管理执行-相关工具类.md" beforeDir="false" afterPath="$PROJECT_DIR$/.note/ju.concurrent-线程管理执行-相关工具类.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ju.concurrent.md" beforeDir="false" afterPath="$PROJECT_DIR$/.note/ju.concurrent.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ju.function.md" beforeDir="false" afterPath="$PROJECT_DIR$/.note/ju.function.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ju.stream.md" beforeDir="false" afterPath="$PROJECT_DIR$/.note/ju.stream.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nio.md" beforeDir="false" afterPath="$PROJECT_DIR$/.note/nio.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/read-java.md" beforeDir="false" afterPath="$PROJECT_DIR$/.note/read-java.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +160,7 @@
     <property name="go.format.on.save.advertiser.fired" value="true" />
     <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_note" />
     <property name="project.structure.last.edited" value="项目" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -137,6 +170,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\data-mozss\code\workspace-project\it\read\read-java" />
       <recent name="D:\data-mozss\code\workspace-project\it\read\read-java\.res" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\data-mozss\code\workspace-project\it\read\read-java\_note" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -150,7 +186,7 @@
       <workItem from="1659275186839" duration="3709000" />
       <workItem from="1659311213865" duration="4768000" />
       <workItem from="1659322692070" duration="172000" />
-      <workItem from="1659326897139" duration="4758000" />
+      <workItem from="1659326897139" duration="5354000" />
     </task>
     <task id="LOCAL-00001" summary="push something">
       <created>1659275280365</created>
@@ -229,7 +265,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659278322158</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="添加juc相关内容">
+      <created>1659334829761</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1659334829761</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +292,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="push something" />
     <MESSAGE value="调试图片加载不出来问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="调试图片加载不出来问题" />
+    <MESSAGE value="添加juc相关内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加juc相关内容" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>

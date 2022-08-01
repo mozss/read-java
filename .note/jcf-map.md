@@ -6,7 +6,8 @@
 
 ### Map接口替代Dictionary<K,V>
 
-[Map接口类](src/java/util/Map.java) 用来替代jdk1.0中的[Dictionary抽象类](src/java/util/Dictionary.java)<br>
+[Map接口类](/src/java/util/Map.java) 用来替代jdk1.0中的[Dictionary抽象类](src/java/util/Dictionary.java)<br>
+
 
 [Map.java](src/java/util/Map.java)接口其实更像一个抽象类<br>
 ![Map接口类](.jcf-map_images/476b837c.png)
